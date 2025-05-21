@@ -1,5 +1,34 @@
 # Mixture-of-RAG
-Code Implementation of Paper: Mixture-of-RAG: Integrating Text and Tables with Language Models
+Code Implementation of Paper: **Mixture-of-RAG: Integrating Text and Tables with Language Models**
+
+## Overview
+
+XXXXXX 
+
+## Project Structure
+
+This is the structure of the MixRAG project:
+
+```
+这里应该有一个树形文件结构
+```
+
+## DocLibRAG Dataset
+
+这里要介绍一下数据集以及Data Format
+
+## Baseline
+
+| Method          | Reference                                                    |
+| --------------- | ------------------------------------------------------------ |
+| Standard RAG    | N/A                                                          |
+| LangChain       | [Langchain](https://github.com/langchain-ai/langchain/blob/master/cookbook/Semi_Structured_RAG.ipynb?ref=blog.langchain.dev) |
+| SelfRAG         | [SelfRAG](https://github.com/AkariAsai/self-rag)             |
+| Table Retrieval | [Table Retrieval](https://aclanthology.org/2024.acl-long.148/) |
+
+## Requirements
+
+## Running the Code
 
 ### Configuration Options
 
@@ -85,3 +114,16 @@ This will override the corresponding settings in `config.py` and execute the scr
 
 - **Configuration Precedence**: If both the `config.py` file and command-line arguments are used, the values provided via the command line will take precedence over those in `config.py`.
 - **Defaults**: If any command-line arguments are not provided, the script will fall back to the default values in `config.py`.
+
+---
+
+#### Deploy Open-Source LLM
+
+To deploy the open-source LLM server, configure and run the script `open_source_LLM\launch_llm_server.py`. Update the following parameters:
+
+```
+model_path = '<path_to_your_model>'  # specify your model path here
+port_map = {
+    'QWen-7B': 6671
+}  # port configuration for different models
+```
