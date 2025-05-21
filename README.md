@@ -96,6 +96,12 @@ The statistical analysis of the dataset is as follows:
 
 ### Generate corpus
 
+Switch to the preprocess directory.
+
+```bash
+cd src/preprocess
+```
+
 Execute the following command to generate the H-RCL corpus:
 
 ```bash
