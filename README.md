@@ -61,6 +61,7 @@ Mixture-of-RAG/
 ## DocLibRAG Dataset
 
 To bridge the gap of heterogeneous data availability, we construct the DocRAGLib dataset based on existing relevant datasets and data crawled from the web. DocRAGLib contains 2,178 documents, combining text and table content, and includes 4,468 QA pairs designed based on the content of these documents. Existing datasets are predominantly tailored for single-document RAG tasks, limiting their applicability to scenarios requiring the processing of large-scale and complex document corpora. DocRAGLib aims to address this limitation by providing a comprehensive dataset specifically designed for multi-document RAG tasks. 
+
 The statistical analysis of the dataset is as follows:
 | **Indicator**                                              | **Value**             |
 | ---------------------------------------------------------- | --------------------- |
