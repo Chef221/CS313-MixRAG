@@ -9,7 +9,7 @@ While existing retrieval‑augmented generation (RAG) systems effectively integr
 To address this limitation, we formalize the task of Heterogeneous
 Document RAG, which requires joint retrieval and reasoning across textual and hierarchical tabular data. 
 We propose MixRAG, a novel three‑stage framework: (i) hierarchy row-and-column-level (H-RCL) representation that preserves hierarchical structure and heterogeneous relationship, (ii) an ensemble retriever with LLM-based reranking for evidence alignment, and (iii) multi‑step reasoning decomposition via a RECAP prompt strategy. 
-To bridge the gap in available data for this domain, we release a large-scale dataset t DocRAGLib, a 2k‑document corpus paired with automatically aligned text‑table summaries and gold document annotations. 
+To bridge the gap in available data for this domain, we release a large-scale dataset DocRAGLib, a 2k‑document corpus paired with automatically aligned text‑table summaries and gold document annotations. 
 The comprehensive experiment results demonstrate that MixRAG boosts top‑1 retrieval by 46%  over strong text‑only, table‑only, and naive‑mixture baselines, establishing new state-of-the-art performance for mixed-modality document grounding.
 
 ## Project Structure
