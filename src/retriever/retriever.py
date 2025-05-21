@@ -1,136 +1,87 @@
-import pandas as pd
-
 from rank_bm25 import BM25Okapi
-from .retriever_utils import *
 from nltk.tokenize import word_tokenize
-
+import pandas as pd
+from utils import get_embedding, cosine_similarity, adjust_similarity, adjust_similarity_bm25  # 假设这些函数在 utils 中定义
 
 class Retriever:
     def __init__(self, documents, df_embedding, df_bm25, client):
-        """
-        初始化Retriever类，可以选择传入预先计算好的bm25索引。
-        """
+        """Initialize Retriever with documents, embeddings, and BM25 index."""
         self.documents = documents
         self.df_embedding = df_embedding
         self.df_bm25 = df_bm25
-
         self.bm25 = BM25Okapi(self.df_bm25['tokenized_content'].tolist())
-
-        self.uid_mapping_doc = {}
-        for doc in documents:
-            self.uid_mapping_doc[doc["uid"]] = doc
-        
+        self.uid_mapping_doc = {doc["uid"]: doc for doc in documents}
         self.client = client
 
-
     def embedding_retriever(self, questions, top_n_embedding):
-        """
-            Here param: questions is a list of subquestions.
-        """
-        all_search_doc_embedding = []
-        all_search_chunks_embedding = []
-        for sub_question in questions:
-            df_search_chunks_embedding, df_search_doc_embedding = self._search_docs_by_embedding(
-                query=sub_question,
-                top_n_embedding=top_n_embedding
-            )
-            all_search_doc_embedding.append(df_search_doc_embedding)
-            all_search_chunks_embedding.append(df_search_chunks_embedding)
-        
-        if len(all_search_doc_embedding) > 1:
-            df_search_doc_embedding = pd.concat(all_search_doc_embedding, ignore_index=True)
-            df_search_doc_embedding = df_search_doc_embedding.sort_values("similarities", ascending=False)
-            df_search_doc_embedding = df_search_doc_embedding.groupby('document_uid', group_keys=False).apply(adjust_similarity)
-            df_search_doc_embedding = df_search_doc_embedding.sort_values("similarities", ascending=False).head(top_n_embedding)
-        else:
-            df_search_doc_embedding = all_search_doc_embedding[0]
-        
-        if len(all_search_chunks_embedding) > 1:
-            df_search_chunks_embedding = pd.concat(all_search_chunks_embedding, ignore_index=True)
-        else:
-            df_search_chunks_embedding = all_search_chunks_embedding[0]
+        """Retrieve relevant documents and chunks using embedding similarity."""
+        all_doc, all_chunk = [], []
+        for q in questions:
+            chunk, doc = self._search_docs_by_embedding(q, top_n_embedding)
+            all_doc.append(doc)
+            all_chunk.append(chunk)
 
-        return df_search_doc_embedding, df_search_chunks_embedding
+        doc_result = pd.concat(all_doc, ignore_index=True) if len(all_doc) > 1 else all_doc[0]
+        chunk_result = pd.concat(all_chunk, ignore_index=True) if len(all_chunk) > 1 else all_chunk[0]
 
+        if len(all_doc) > 1:
+            doc_result = doc_result.sort_values("similarities", ascending=False)
+            doc_result = doc_result.groupby('document_uid', group_keys=False).apply(adjust_similarity)
+            doc_result = doc_result.sort_values("similarities", ascending=False).head(top_n_embedding)
+
+        return doc_result, chunk_result
 
     def _search_docs_by_embedding(self, query, top_n_embedding):
-        query_embedding = get_embedding(query, self.client)
-        df = self.df_embedding
-        
-        df['similarities'] = df.ada_v2.apply(lambda x: cosine_similarity(x, query_embedding))
-    
-        df_sorted = df.sort_values("similarities", ascending=False).head(top_n_embedding * 3)
-        df_sorted_chunks = df.sort_values("similarities", ascending=False).head(top_n_embedding * 3)
-        df_adjusted = df_sorted.groupby('document_uid', group_keys=False).apply(adjust_similarity)
-        res = df_adjusted.sort_values("similarities", ascending=False).head(top_n_embedding)
-        
-        # Return both the top_n*3 chunks and top_n documents
-        return df_sorted_chunks, res
+        """Internal method to search top-N documents and chunks by embedding similarity."""
+        query_emb = get_embedding(query, self.client)
+        df = self.df_embedding.copy()
+        df['similarities'] = df['ada_v2'].apply(lambda x: cosine_similarity(x, query_emb))
 
+        top_chunks = df.sort_values("similarities", ascending=False).head(top_n_embedding * 3)
+        top_docs = top_chunks.groupby('document_uid', group_keys=False).apply(adjust_similarity)
+        top_docs = top_docs.sort_values("similarities", ascending=False).head(top_n_embedding)
+
+        return top_chunks, top_docs
 
     def bm25_retriever(self, questions, top_n_bm25):
-        all_search_doc_bm25 = []
-        all_search_chunks_bm25 = []
+        """Retrieve relevant documents and chunks using BM25 scores."""
+        all_doc, all_chunk = [], []
+        for q in questions:
+            chunk, doc = self._search_docs_bm25(q, top_n_bm25)
+            all_doc.append(doc)
+            all_chunk.append(chunk)
 
-        for sub_question in questions:
-            df_search_chunks_bm25, df_search_doc_bm25 = self._search_docs_bm25(
-                query=sub_question,
-                top_n_bm25=top_n_bm25,
-            )
-            all_search_doc_bm25.append(df_search_doc_bm25)
-            all_search_chunks_bm25.append(df_search_chunks_bm25)
-        
-        if len(all_search_doc_bm25) > 1:
-            df_search_doc_bm25 = pd.concat(all_search_doc_bm25, ignore_index=True)
-            df_search_doc_bm25 = df_search_doc_bm25.sort_values("bm25_scores", ascending=False)
-            df_search_doc_bm25 = df_search_doc_bm25.groupby('document_uid', group_keys=False).apply(adjust_similarity_bm25)
-            df_search_doc_bm25 = df_search_doc_bm25.sort_values("bm25_scores", ascending=False).head(top_n_bm25)
-        else:
-            df_search_doc_bm25 = all_search_doc_bm25[0]
+        doc_result = pd.concat(all_doc, ignore_index=True) if len(all_doc) > 1 else all_doc[0]
+        chunk_result = pd.concat(all_chunk, ignore_index=True) if len(all_chunk) > 1 else all_chunk[0]
 
-        if len(all_search_chunks_bm25) > 1:
-            df_search_chunks_bm25 = pd.concat(all_search_chunks_bm25, ignore_index=True)
-        else:
-            df_search_chunks_bm25 = all_search_chunks_bm25[0]
-        
-        return df_search_doc_bm25, df_search_chunks_bm25
-    
+        if len(all_doc) > 1:
+            doc_result = doc_result.sort_values("bm25_scores", ascending=False)
+            doc_result = doc_result.groupby('document_uid', group_keys=False).apply(adjust_similarity_bm25)
+            doc_result = doc_result.sort_values("bm25_scores", ascending=False).head(top_n_bm25)
+
+        return doc_result, chunk_result
 
     def _search_docs_bm25(self, query, top_n_bm25):
+        """Internal method to search top-N documents and chunks by BM25 score."""
         tokenized_query = word_tokenize(query.lower())
+        scores = self.bm25.get_scores(tokenized_query)
 
-        doc_scores = self.bm25.get_scores(tokenized_query)
+        df = self.df_bm25.copy()
+        df['bm25_scores'] = scores
 
-        df = self.df_bm25
+        top_chunks = df.sort_values("bm25_scores", ascending=False).head(top_n_bm25 * 3)
+        top_docs = top_chunks.groupby('document_uid', group_keys=False).apply(adjust_similarity_bm25)
+        top_docs = top_docs.sort_values("bm25_scores", ascending=False).head(top_n_bm25)
 
-        df['bm25_scores'] = doc_scores
-        df_sorted = df.sort_values("bm25_scores", ascending=False).head(top_n_bm25 * 3)
-        df_sorted_chunks = df.sort_values("bm25_scores", ascending=False).head(top_n_bm25 * 3)
-        df_adjusted = df_sorted.groupby('document_uid', group_keys=False).apply(adjust_similarity_bm25)
-        res = df_adjusted.sort_values("bm25_scores", ascending=False).head(top_n_bm25)
+        return top_chunks, top_docs
 
-        return df_sorted_chunks, res
-
-    
-    def ensembel_docs(self, related_document_uids_embedding, related_document_uids_bm25):
-        if(len(related_document_uids_bm25)==0):
-            related_document_uids = related_document_uids_embedding
-            seen = set()
-            related_document_uids = [x for x in related_document_uids if not (x in seen or seen.add(x))]
-            related_document_num=len(related_document_uids)   #去重后的top N的数目（e.g. top 100-> top 90）
-            print(f"Related documents: {related_document_uids}")
-
-            retrieval_documents = [self.uid_mapping_doc[uid] for uid in related_document_uids]
-            
-            return related_document_uids, retrieval_documents, related_document_num
+    def ensembel_docs(self, embedding_uids, bm25_uids):
+        """Ensemble uids from embedding and BM25 retrievals (with deduplication)."""
+        if not bm25_uids:
+            merged_uids = list(dict.fromkeys(embedding_uids))
         else:
-            related_document_uids = related_document_uids_embedding + related_document_uids_bm25
-            seen = set()
-            related_document_uids = [x for x in related_document_uids if not (x in seen or seen.add(x))]
-            related_document_num=len(related_document_uids)   #去重后的top N的数目（e.g. top 100-> top 90）
-            print(f"Related documents: {related_document_uids}")
+            merged_uids = list(dict.fromkeys(embedding_uids + bm25_uids))
 
-            retrieval_documents = [self.uid_mapping_doc[uid] for uid in related_document_uids]
-            
-            return related_document_uids, retrieval_documents, related_document_num
-        
+        merged_docs = [self.uid_mapping_doc[uid] for uid in merged_uids]
+        print(f"Related documents: {merged_uids}")
+        return merged_uids, merged_docs, len(merged_uids)

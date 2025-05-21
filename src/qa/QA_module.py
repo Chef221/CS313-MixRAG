@@ -18,6 +18,7 @@ port_map = {
 }
 
 def get_llm_response(model, prompt, temperature=0):
+    """Call local LLM via HTTP interface."""
     port = port_map[model]
     url = f"http://localhost:{port}/generate"
     headers = {
@@ -34,17 +35,12 @@ def get_llm_response(model, prompt, temperature=0):
         return result.get('response', 'No response key in JSON')
     else:
         return f"Error: {response.status_code}, {response.text}"
+
 qa_count=0
-# Load necessary data
-#dev_doc_path = "/home/TableSense/hadong/ssd2/table_rag/data/dev_documents.json"
-# dev_qa_path = "/home/TableSense/hadong/ssd2/table_rag/data/new_dev_qa.json"   #new_dev_qa_no_million3
-#dev_qa_path = '/home/TableSense/hadong/ssd2/table_rag/data/new_dev_qa_all_num.json'   #现在仅保留答案为数字的问题
 
 class QA_module:
     def __init__(self, dev_doc_path, dev_qa_path, use_calculator, model_RECAP_qa, client):
-        """
-        初始化RECAP_QA类，放一下dev_doc_path（数据集文档部分）和dev_qa_path（数据集的问题部分）。
-        """
+        """Initialize RECAP QA module with document/QA paths, model info, and OpenAI client."""
         self.dev_doc_path=dev_doc_path
         self.dev_qa_path=dev_qa_path
         self.client = client
@@ -52,21 +48,19 @@ class QA_module:
         self.use_calculator=use_calculator
         
     def call_oneshot_RECAP_prompt(self, information1,information2,question, model_RECAP_qa):
+        """Call LLM with one-shot QA RECAP prompt and parse structured output."""
         info1,info2,info3=information1,information2,question
         with open("prompt/qa_RECAP.md", 'r', encoding="utf-8") as prompt_file:
         # with open("prompt/qa_CoT.md", 'r', encoding="utf-8") as prompt_file:      #qa_RECAP   qa_our_prompt
             prompt_template = prompt_file.read()
+        
         oneshot_RECAP_prompt = prompt_template.replace("{{info1}}", str(info1)).replace("{{info2}}", str(info2)).replace("{{info3}}", str(info3))
-        # - retries: 重试次数
-        # - delay: 每次重试之间的延迟时间（秒）
         retries=5
         delay=10
         
         if self.model_RECAP_qa in ["gpt4o-retran","gpt-35-turbo-rag","gpt4-0613","gpt-4o-mini"]:
-            # 初始化重试计数
             for attempt in range(retries):
                 try:
-                    # 发送API请求
                     response = self.client.chat.completions.create(
                         model= model_RECAP_qa,  # model = "deployment_name"
                         messages=[
@@ -74,14 +68,12 @@ class QA_module:
                             {"role": "user", "content": oneshot_RECAP_prompt}
                         ]
                     )
-                    # 处理响应
                     full_answer = response.choices[0].message.content
                     matches1 = re.findall(r'<(.*?)>', full_answer)
                     matches2 = re.findall(r'##(.*?)##', full_answer)
                     res1 = matches1[-1] if matches1 else ""
                     res2 = matches2[-1] if matches2 else ""
 
-                    # 计算公式结果
                     if res2:
                         result = self.safe_eval(res2)
                         formula_cal_res = round(result, 5) if isinstance(result, (int, float)) else ""
@@ -90,31 +82,27 @@ class QA_module:
 
                     final_ans = res1
 
-                    # 更新计数并返回结果
                     global qa_count
                     qa_count += 1
-                    print(qa_count)  # 监控函数运行次数
+                    print(qa_count)
                     return full_answer, final_ans, formula_cal_res, res2
 
                 except openai.RateLimitError:
-                    # 处理速率限制错误
-                    if attempt < retries - 1:  # 如果还有重试机会
+                    if attempt < retries - 1:
                         print(f"Rate limit exceeded. Retrying in {delay} seconds...")
-                        time.sleep(delay)  # 等待指定时间后重试 
-                        delay *= 2  # 可选择延长延迟时间（指数回退）
+                        time.sleep(delay)
+                        delay *= 2
                     else:
                         print("Rate limit exceeded. Maximum retries reached.")
-                        raise  # 超出重试次数后重新抛出异常                  
+                        raise          
         else:
             answer=get_llm_response(self.model_RECAP_qa, oneshot_RECAP_prompt).strip()
-            # 处理响应
             full_answer = answer
             matches1 = re.findall(r'<(.*?)>', full_answer)
             matches2 = re.findall(r'##(.*?)##', full_answer)
             res1 = matches1[-1] if matches1 else ""
             res2 = matches2[-1] if matches2 else ""
 
-            # 计算公式结果
             if res2:
                 result = self.safe_eval(res2)
                 formula_cal_res = round(result, 5) if isinstance(result, (int, float)) else ""
@@ -123,9 +111,8 @@ class QA_module:
 
             final_ans = res1
 
-            # 更新计数并返回结果
             qa_count += 1
-            print(qa_count)  # 监控函数运行次数
+            print(qa_count)
             return full_answer, final_ans, formula_cal_res, res2
 
     def safe_eval(self, expr):
@@ -262,7 +249,6 @@ class QA_module:
                         "true_answer": matching_qa_entry['answer']
                     }
                 else:
-                    # 如果没有calculator，则使用下面的
                     compare = {
                         "question": question,
                         "direct_answer": direct_ans,
@@ -276,14 +262,8 @@ class QA_module:
             current_data.append(compare)
 
             print(f"Processed question: {question}")
-                    # Read the current file and append the new result
-        # with open(stage_3_output_path, "w") as f:
-        #     json.dump(current_data, f, indent=4)
         return current_data
             
-            
-
-
     # Function to execute the QA process
     def run_QA(self,qa_input):
         documents, qa_data = self.load_documents_and_qa()

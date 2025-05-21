@@ -27,28 +27,9 @@ app = Flask(__name__)
 
 
 # load model, tokenizer
-#前3个放在卡ssd2了
-model_path= '/home/TableSense/hadong/ssd2/table_rag/hugging_face_models/Meta-Llama-3.1-8B-Instruct'
-model_path= '/home/TableSense/hadong/ssd2/table_rag/hugging_face_models/Mistral-Nemo-Instruct-2407'
-model_path= '/home/TableSense/hadong/ssd2/table_rag/hugging_face_models/Phi-3.5-mini-instruct'
-
-model_path= '/home/TableSense/hadong/ssd1/c7y/hugging_face_models/Qwen2.5-7B-Instruct'
-model_path= '/home/TableSense/hadong/ssd1/c7y/hugging_face_models/Qwen2.5-72B-Instruct'
-model_path= '/home/TableSense/hadong/ssd1/c7y/hugging_face_models/Qwen2.5-32B-Instruct'
-# model_path= '/home/TableSense/hadong/ssd1/c7y/hugging_face_models/gemma-2-9b-it'
-# model_path= '/home/TableSense/hadong/ssd1/c7y/hugging_face_models/Yi-1.5-9B-Chat-16k'
-# model_path = 'hf_models/Meta-Llama-3.1-8B-Instruct'  gemma-2-9b
-# model_path = 'hf_models/Mistral-Nemo-Instruct-2407'
-# model_path = 'hf_models/Phi-3.5-mini-instruct'
+model_path= ''
 
 port = 6666
-port = 6667
-port = 6668
-port = 6669
-port = 6670
-port = 6671
-# port = 6672
-# port = 6673
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 tokenizer = AutoTokenizer.from_pretrained(model_path)

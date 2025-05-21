@@ -24,25 +24,14 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-# call api test
-# curl -X POST http://localhost:6667/generate -H "Content-Type: application/json" -d '{"prompt": "Generate data to describe a person, including name, age, and gender.", "schema": {"type": "object", "properties": {"name": {"type": "string"}, "age": {"type": "number"}, "gender": {"type": "string"}}}}'
-
-# define server app
 app = Flask(__name__)
 
 
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 
-
-# model_path = 'hf_models/Meta-Llama-3.1-8B-Instruct'
-# port = 6666
-
-model_path = 'hf_models/Mistral-Nemo-Instruct-2407'
+model_path = ''
 port = 6667
-
-# model_path = 'hf_models/Phi-3.5-mini-instruct'
-# port = 6668
 
 print(f'*** Loading model - {model_path}...')
 print(f'*** Launching server on port {port}...')

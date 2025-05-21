@@ -25,7 +25,6 @@ def filter(doc_list):
         for doc in related_docs:
             uid = doc['document_uid']
             related_doc_detail = doc['related_doc_detail']
-            # Filter out chunks longer than 2000 characters
             filtered_related_doc_detail = [chunk for chunk in related_doc_detail if len(chunk) <= 800]
             if filtered_related_doc_detail:
                 filtered_doc = {

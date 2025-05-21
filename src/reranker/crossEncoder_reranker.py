@@ -4,20 +4,17 @@ import re
 import time
 from tqdm import tqdm
 import ast  # For safe parsing of LLM response
-from sentence_transformers import SentenceTransformer, CrossEncoder, util  # 新增导入
+from sentence_transformers import SentenceTransformer, CrossEncoder, util
 
 class crossEncoder_reranker:
     def __init__(self, output_list2,stage_2_output_path,qa_dataset,client):
-        """
-        初始化RECAP_QA类，放一下dev_doc_path（数据集文档部分）和dev_qa_path（数据集的问题部分）。
-        """
-        self.output_list2 = output_list2   #第一阶段的带的
-        self.qa_dataset = qa_dataset   #数据集的QA部分（数据集分为QA部分和Document部分）
-        self.stage_2_output_path = stage_2_output_path    #这一阶段的输出
+        self.output_list2 = output_list2
+        self.qa_dataset = qa_dataset
+        self.stage_2_output_path = stage_2_output_path
         self.client=client
         
     def run_crossEncoder_reranker(self):
-        cross_encoder_model = CrossEncoder('cross-encoder/ms-marco-MiniLM-L-12-v2')  # 或者 'cross-encoder/ms-marco-MiniLM-L-6-v2'
+        cross_encoder_model = CrossEncoder('cross-encoder/ms-marco-MiniLM-L-12-v2')
         qa_input = []
         for idx, entry in enumerate(tqdm(self.output_list2, desc="Processing Cross-Encoder Reranker for top 1 document")):
             question = entry['question']

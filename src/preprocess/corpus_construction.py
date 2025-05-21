@@ -13,8 +13,10 @@ from utils import *
 from rank_bm25 import BM25Okapi
 from nltk.tokenize import word_tokenize
 
+client_id = ""  # Here Provide your azure client id
+
 token_provider = get_bearer_token_provider(
-    ManagedIdentityCredential(client_id="f6a245af-3e86-4fc8-9470-127f5024e475"), "https://cognitiveservices.azure.com/.default"
+    ManagedIdentityCredential(client_id=client_id), "https://cognitiveservices.azure.com/.default"
 )
 
 client = AzureOpenAI(
@@ -26,13 +28,22 @@ client = AzureOpenAI(
 
 def prepare_bm25_corpus(df_chunks, save_path=None):
     """
-    准备BM25语料库，采用不同的分块方式：
-    - 对于文本部分（段落），使用完整的段落作为分块
-    - 对于表格部分，使用与Embedding相同的表格摘要
+    Prepares a tokenized corpus for BM25 retrieval.
+
+    This function processes a list of document chunks (from either paragraphs or tables),
+    tokenizes the content using word-level tokenization, and optionally saves the resulting
+    DataFrame to a pickle file.
+
+    Args:
+        df_chunks (list or pd.DataFrame): A list of dictionaries or a DataFrame containing document chunks,
+            each with a 'content' field.
+        save_path (str, optional): Path to save the tokenized corpus as a pickle file. Defaults to None.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing original content and its tokenized form.
     """
     bm25_documents_chunks = df_chunks
     df_bm25_documents_chunks = pd.DataFrame(bm25_documents_chunks)
-    # 对内容进行分词，供BM25使用
     df_bm25_documents_chunks['tokenized_content'] = df_bm25_documents_chunks['content'].apply(lambda x: word_tokenize(x.lower()))
     if save_path:
         df_bm25_documents_chunks.to_pickle(save_path)
@@ -40,6 +51,18 @@ def prepare_bm25_corpus(df_chunks, save_path=None):
 
 
 def rol_col_embedding_corpus_construction(documents):
+    """
+    Constructs a corpus using *generalized* row-and-column-level summaries for tables.
+
+    Similar to `rol_col_embedding_corpus_construction`, but uses a more generalized table summarization
+    method for each table. Paragraphs are still concatenated.
+
+    Args:
+        documents (list): A list of document dictionaries, each with 'tables', 'paragraphs', and 'uid'.
+
+    Returns:
+        list: A list of document chunks for embedding purposes.
+    """
     documents_chunks = []
     
     for document in tqdm(documents, desc="Processing..."):
@@ -47,7 +70,6 @@ def rol_col_embedding_corpus_construction(documents):
         tables = document.get("tables", [])
         uid = document.get("uid", "N/A")
 
-    # 为每个表格生成摘要
         for i, table in enumerate(tables):
             retries = 5
             delay = 5
@@ -62,7 +84,6 @@ def rol_col_embedding_corpus_construction(documents):
                     else:
                         print("Rate limit exceeded. Maximum retries reached.")
                         raise
-            print(row_col_sums)
             for row_col_sum in row_col_sums:
                 documents_chunks.append(
                     {
@@ -91,7 +112,6 @@ def rol_col_general_embedding_corpus_construction(documents):
         tables = document.get("tables", [])
         uid = document.get("uid", "N/A")
 
-    # 为每个表格生成摘要
         for i, table in enumerate(tables):
             retries = 5
             delay = 5
@@ -106,7 +126,6 @@ def rol_col_general_embedding_corpus_construction(documents):
                     else:
                         print("Rate limit exceeded. Maximum retries reached.")
                         raise
-            print(row_col_sums)
             for row_col_sum in row_col_sums:
                 documents_chunks.append(
                     {
@@ -134,7 +153,6 @@ def rol_col_para_embedding_corpus_construction(documents):
         tables = document.get("tables", [])
         uid = document.get("uid", "N/A")
 
-        # 为每个表格生成摘要
         for i, table in enumerate(tables):
             retries = 5
             delay = 5
@@ -149,7 +167,6 @@ def rol_col_para_embedding_corpus_construction(documents):
                     else:
                         print("Rate limit exceeded. Maximum retries reached.")
                         raise
-            print(row_col_sums)
             for row_col_sum in row_col_sums:
                 documents_chunks.append(
                     {
@@ -173,6 +190,18 @@ def rol_col_para_embedding_corpus_construction(documents):
 
 
 def table_level_embedding_corpus_construction(documents):
+    """
+    Constructs a corpus with table-level summaries and individual paragraphs.
+
+    This function creates a summary for each table using `table_summary` and includes each paragraph as
+    a separate chunk. This is a higher-level summarization strategy compared to row-column level methods.
+
+    Args:
+        documents (list): A list of documents with keys 'tables', 'paragraphs', and 'uid'.
+
+    Returns:
+        list: A list of document chunks labeled by table or paragraph index.
+    """
     documents_chunks = []
     for document in tqdm(documents, desc="Processing..."):
         paragraphs = document.get("paragraphs", [])
@@ -228,7 +257,6 @@ def main(args):
 
 
 if __name__ == "__main__":
-    # 定义命令行参数
     parser = argparse.ArgumentParser(description="Document Processing with BM25 and Embedding")
 
     parser.add_argument(
@@ -248,36 +276,8 @@ if __name__ == "__main__":
         help="Path to save the output BM25 file"
     )
 
-    # 解析命令行参数
     args = parser.parse_args()
 
-    # 执行主逻辑
     main(args)
 
     print("Finished!")
-
-
-# if __name__ == "main":
-#     doc_path = "/home/TableSense/hadong/ssd1/zc/Test/MultiHiertt/dev_documents.json"
-#     documents = read_json_file(doc_path)
-#     corpus_type = 1
-#     # 1 means table level
-#     # 2 means rol_col_embedding
-#     # 3 means rol_col_para_embedding
-#     output_embedding_path = "em_df_row_col_para_description.pkl"
-#     output_bm25_path = "bm25_df_row_col_para_description.pkl"
-
-#     if corpus_type == "1":
-#         documents_chunks = table_level_embedding_corpus_construction(documents)
-#     elif corpus_type == "2":
-#         documents_chunks = rol_col_embedding_corpus_construction(documents)
-#     else:
-#         documents_chunks = rol_col_para_embedding_corpus_construction(documents)
-
-#     df_documents_chunks = pd.DataFrame(documents_chunks)
-
-#     df_documents_chunks['ada_v2'] = df_documents_chunks["content"].apply(lambda x: get_embedding(x, client))
-
-#     df_documents_chunks.to_pickle(output_embedding_path)
-
-#     df_bm25_documents_chunks = prepare_bm25_corpus(df_documents_chunks, save_path=output_bm25_path)

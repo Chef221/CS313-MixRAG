@@ -1,8 +1,6 @@
 import json, os, re
 import sys
 
-# 将路径添加到sys.path
-# sys.path.append('/home/TableSense/hadong/ssd2/table_rag/RAG_Framework/utils')
 # from span_selection_utils import *
 # from program_generation_utils import *
 import math 
@@ -298,7 +296,6 @@ def _match_numbers_if_present(gold_bag: Set[str], predicted_bag: Set[str]) -> bo
         return True
     return False
 
-# 原来的get_span_selection_metrics进行了修改（cqy）
 
 def get_span_selection_metrics(predicted, gold):
     predicted_spans, predicted_token_bags = _answer_to_bags(predicted)
@@ -344,36 +341,17 @@ def get_span_selection_metrics(predicted, gold):
                     f1 = 1.0
                     return exact_match, f1
             except ValueError:
-                pass  # 转换失败，继续执行后续逻辑
+                pass 
 
-    # 原有的 exact_match 逻辑
     if set(predicted_token_bags[0]) == set(gold_token_bags[0]) and len(predicted_token_bags[0]) == len(gold_token_bags[0]):
         exact_match = 1.0
     else:
         exact_match = 0.0
 
-    # 计算 F1 分数
     f1_per_bag = _align_bags(predicted_token_bags, gold_token_bags)
     f1 = np.mean(f1_per_bag)
     f1 = round(f1, 2)
     return exact_match, f1
-
-# def get_span_selection_metrics(
-#     predicted: Union[str, List[str], Tuple[str, ...]], gold: Union[str, List[str], Tuple[str, ...]]
-# ) -> Tuple[float, float]:
-
-#     predicted_bags = _answer_to_bags(predicted)
-#     gold_bags = _answer_to_bags(gold)
-
-#     if set(predicted_bags[0]) == set(gold_bags[0]) and len(predicted_bags[0]) == len(gold_bags[0]):
-#         exact_match = 1.0
-#     else:
-#         exact_match = 0.0
-
-#     f1_per_bag = _align_bags(predicted_bags[1], gold_bags[1])
-#     f1 = np.mean(f1_per_bag)
-#     f1 = round(f1, 2)
-#     return exact_match, f1
 
 def span_selection_evaluate(all_preds, all_filename_id, test_file):
     '''
@@ -461,67 +439,3 @@ def evaluation_prediction_result(pred_ans,gold_ans):
     print(f"Exact Match Score: {exact_match_score}, F1 Score: {f1_score}")
 
     return exact_match_score, f1_score, true_or_flase_list
-
-
-
-# if __name__ == '__main__':
-#     pass
-    # # 文件路径
-    # # file_name = '/home/TableSense/hadong/ssd2/table_rag/RAG_Framework/QA/QAprompt/output/copy_02.json'
-    # file_name = "/home/TableSense/hadong/ssd2/table_rag/RAG_Framework/evaluate_output/complete_RECAP_1115 copy.json"
-    # test_list=[
-    # '/home/TableSense/hadong/ssd2/table_rag/RAG_Framework/QA/QAprompt/output/split_output/both_text_table_2.json' , 
-    # '/home/TableSense/hadong/ssd2/table_rag/RAG_Framework/QA/QAprompt/output/split_output/both_text_table.json' ,
-    # '/home/TableSense/hadong/ssd2/table_rag/RAG_Framework/QA/QAprompt/output/split_output/table_only_2.json' ,
-    # '/home/TableSense/hadong/ssd2/table_rag/RAG_Framework/QA/QAprompt/output/split_output/table_only.json' ,
-    # '/home/TableSense/hadong/ssd2/table_rag/RAG_Framework/QA/QAprompt/output/split_output/text_only.json'  ,
-    # ]
-    
-    # # file_name=test_list[4]
-    
-    # file_name_output = '/home/TableSense/hadong/ssd2/table_rag/RAG_Framework/evaluate_output/evaluate_complete_RECAP_1115.json'
-    # # 初始化两个列表
-    # pred_ans = []
-    # gold_ans = []
-    # global true_or_flase_list
-    # true_or_flase_list=[]
-    
-    # # 读取 JSON 文件
-    # with open(file_name, 'r', encoding='utf-8') as file:
-    #     data = json.load(file)
-
-    #     # 遍历每个字典，提取 predict_answer 和 true_answer
-    #     for item in data:
-    #         if 'predict_answer' in item:
-    #             # if item['predict_answer']=="":
-    #             #     item['predict_answer']="yes"
-    #             pred_ans.append(str(item['predict_answer']))
-    #         if 'true_answer' in item:
-    #             gold_ans.append(str(item['true_answer']))
-    # EM, f1, true_or_flase=evaluation_prediction_result(pred_ans,gold_ans)
-    # c=0
-    # for i in true_or_flase:
-    #     if i=="True":
-    #         c+=1
-    # print("True的数量："+str(c))
-    # predicted = "100.00000"
-    # gold = "100.00004"
-    # test_exact_match, test_f1 = get_span_selection_metrics(predicted, gold)
-    # print(test_exact_match)
-    # print(test_f1)
-    
-    # # 1. 读取原始 JSON 文件
-    # with open(file_name, 'r', encoding='utf-8') as f:
-    #     data2 = json.load(f)
-
-    # if len(data2) != len(true_or_flase):
-    #     raise ValueError("JSON 文件的列表长度与 true_or_false 列表的长度不一致。")
-    # # 4. 遍历并添加 'judge' 属性
-    # for item, judge_value in zip(data2, true_or_flase):
-    #     item['judge'] = judge_value
-
-    # # 5. 将结果保存到新的 JSON 文件
-    # with open(file_name_output, 'w', encoding='utf-8') as f:
-    #     json.dump(data2, f, ensure_ascii=False, indent=4)
-
-    # print(true_or_flase)
