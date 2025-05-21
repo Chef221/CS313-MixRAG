@@ -1,0 +1,978 @@
+[
+    {
+        "question": "What will Distribution fees reach in 2010 if it continues to grow at its current rate? (in millions)",
+        "direct_answer": "1240.53",
+        "formula_ans": 1239.6365,
+        "formula": "(1565 - (1565 * 0.11)) - ((1565 - (1565 * 0.11)) * 0.11)",
+        "predict_answer": 1239.6365,
+        "true_answer": 1570.75785
+    },
+    {
+        "question": "What was the total amount of Amount in 2007 for Financial Services Businesses ? (in million)",
+        "direct_answer": "unknown",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "unknown",
+        "true_answer": "8228"
+    },
+    {
+        "question": "Does the average value of Power purchase agreements in Entergy Arkansas greater than that in Entergy Louisiana?",
+        "direct_answer": "yes",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "yes",
+        "true_answer": "yes"
+    },
+    {
+        "question": "What is the ratio of Securities to the total for Net realized losses reclassified into earnings in 2008?",
+        "direct_answer": "undefined",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "undefined",
+        "true_answer": 0.66977
+    },
+    {
+        "question": "How many Below Investment Grade exceed the average of Below Investment Grade in 2004?",
+        "direct_answer": "1",
+        "formula_ans": 607.0,
+        "formula": "2428 / 4",
+        "predict_answer": 607.0,
+        "true_answer": "1"
+    },
+    {
+        "question": "containerboards net sales represented what percentage of industrial packaging sales in 2005?",
+        "direct_answer": "None",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "None",
+        "true_answer": 0.18136
+    },
+    {
+        "question": "What's the difference of Securities America, Inc.-3(4) between 2010 and 2009 forActual Capital? (in million)",
+        "direct_answer": "13",
+        "formula_ans": 13,
+        "formula": "15 - 2",
+        "predict_answer": 13,
+        "true_answer": -13.0
+    },
+    {
+        "question": "What is the ratio of Total cards-in-force in Table 1 to the Other in Table 0 in 2016?",
+        "direct_answer": "0.34421",
+        "formula_ans": 0.34421,
+        "formula": "32.7 / 95",
+        "predict_answer": 0.34421,
+        "true_answer": 0.34421
+    },
+    {
+        "question": "In the year / section with largest amount of Average contract revenue per MWh, what's the sum of Planned net MW in operation?",
+        "direct_answer": "4200",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "4200",
+        "true_answer": "4200"
+    },
+    {
+        "question": "What was the total amount of Allowance greater than 270 in 2018? (in million)",
+        "direct_answer": "0",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "0",
+        "true_answer": 1918.0
+    },
+    {
+        "question": "What is the sum of Aircraft on Firm Order in 2009?",
+        "direct_answer": "32",
+        "formula_ans": 32,
+        "formula": "5 + 11 + 6 + 0 + 0 + 10",
+        "predict_answer": 32,
+        "true_answer": 32.0
+    },
+    {
+        "question": "what was the change in advertising costs from 2001 to 2002?",
+        "direct_answer": "Not Available",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "Not Available",
+        "true_answer": 210000.0
+    },
+    {
+        "question": "What is the growth rate of Balance between December 31, 2008 and December 31, 2009?",
+        "direct_answer": "0.30385",
+        "formula_ans": 0.30357,
+        "formula": "(94.9 - 72.8) / 72.8",
+        "predict_answer": 0.30357,
+        "true_answer": -0.06413
+    },
+    {
+        "question": "what is the pre-tax aggregate net unrealized loss in 2008?",
+        "direct_answer": "-6623",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "-6623",
+        "true_answer": 26.0
+    },
+    {
+        "question": "In the year with largest amount of government, what's the increasing rate of education?",
+        "direct_answer": "-0.04317",
+        "formula_ans": -0.04318,
+        "formula": "(57021 - 59594) / 59594",
+        "predict_answer": -0.04318,
+        "true_answer": -0.00932
+    },
+    {
+        "question": "What is the proportion of Asset Management to the total Mortgage and other loans receivable, net of allowance in 2006?",
+        "direct_answer": "none",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "none",
+        "true_answer": 0.17186
+    },
+    {
+        "question": "What was the total amount of Amount greater than 5000 in 2013?",
+        "direct_answer": "26301",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "26301",
+        "true_answer": 87700.0
+    },
+    {
+        "question": "what was the percentage change in the allowance for loan losses from 2008 to 2009?",
+        "direct_answer": "-0.32535",
+        "formula_ans": -0.32539,
+        "formula": "(72450 - 107396) / 107396",
+        "predict_answer": -0.32539,
+        "true_answer": 0.83756
+    },
+    {
+        "question": "What is the growing rate of Net credit losses in the year with the most Provision for benefits and claims?",
+        "direct_answer": "4.95828",
+        "formula_ans": 4.95916,
+        "formula": "(5399 - 906) / 906",
+        "predict_answer": 4.95916,
+        "true_answer": 0.75282
+    },
+    {
+        "question": "What do all collateralized financings sum up in 2018 , excluding Repurchase agreements and Securities loaned? (in million)",
+        "direct_answer": "21433",
+        "formula_ans": 21433,
+        "formula": "21433",
+        "predict_answer": 21433,
+        "true_answer": "21433"
+    },
+    {
+        "question": "In the year with the most other revenues , what is the growth rate of General and administrative expense? (in million)",
+        "direct_answer": "-0.03512",
+        "formula_ans": -0.03513,
+        "formula": "(2472 - 2562) / 2562",
+        "predict_answer": -0.03513,
+        "true_answer": 13.36364
+    },
+    {
+        "question": "as of february 19 , 2016 what was the market capitalization",
+        "direct_answer": "not available",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "not available",
+        "true_answer": 37014734589.92
+    },
+    {
+        "question": "What was the total amount of Net interest revenue and Non-interest revenue in 2009 ? (in million)",
+        "direct_answer": "19182",
+        "formula_ans": 19182,
+        "formula": "13709 + 5473",
+        "predict_answer": 19182,
+        "true_answer": 9789.0
+    },
+    {
+        "question": "What was the average of the Total operating revenues in the year where Other investment income/(losses) is positive? (in million)",
+        "direct_answer": "unknown",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "unknown",
+        "true_answer": 1162.56667
+    },
+    {
+        "question": "What's the sum of Collections reinvested in revolving period securitizations in terms of Home Equity in 2009? (in dollars in millions)",
+        "direct_answer": "177",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "177",
+        "true_answer": "177"
+    },
+    {
+        "question": "What will principal transaction be like in 2013 if it develops with the same increasing rate as current?",
+        "direct_answer": "4502.85446",
+        "formula_ans": "",
+        "formula": "6001 * (1 - 0.08)^4",
+        "predict_answer": "4502.85446",
+        "true_answer": 82.23539
+    },
+    {
+        "question": "what was the average operating leases 2014rental expense for operating leases from 2009 to 2011",
+        "direct_answer": "31.5",
+        "formula_ans": 31.5,
+        "formula": "(30.2 + 32.8) / 2",
+        "predict_answer": 31.5,
+        "true_answer": 45.33333
+    },
+    {
+        "question": "what is the highest total amount of North Sea?",
+        "direct_answer": "30",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "30",
+        "true_answer": "18"
+    },
+    {
+        "question": "What is the sum of Securities loaned in 2017 and Aggregate contractual principal in excess of fair value in 2015? (in million)",
+        "direct_answer": "16123",
+        "formula_ans": 16123,
+        "formula": "14793 + 1330",
+        "predict_answer": 16123,
+        "true_answer": 24393.0
+    },
+    {
+        "question": "What is the average increasing rate of Purchased power between 2017 and 2018? (in million)",
+        "direct_answer": "17",
+        "formula_ans": 17,
+        "formula": "208 - 191",
+        "predict_answer": 17,
+        "true_answer": 199.5
+    },
+    {
+        "question": "What will Total trading account assets be like in 2011 if it continues to grow at the same rate as it did in 2010? (in million)",
+        "direct_answer": "206276.064",
+        "formula_ans": "",
+        "formula": "(21,077 * (1 + ((21,077 - 6,733) / 6,733))) * (1 + ((21,077 - 6,733) / 6,733))",
+        "predict_answer": "206276.064",
+        "true_answer": 207988.75032
+    },
+    {
+        "question": "What is the growing rate of BENEFIT OBLIGATION AT END OF YEAR for Con Edison in the year with the least Benefit obligation at beginning of year for Con Edison?",
+        "direct_answer": "0.01147",
+        "formula_ans": 0.01147,
+        "formula": "(1411 - 1395) / 1395",
+        "predict_answer": 0.01147,
+        "true_answer": 0.01147
+    },
+    {
+        "question": "Does TRICARE subtotal keeps increasing each year between 2003 and 2004 ?",
+        "direct_answer": "yes",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "yes",
+        "true_answer": "yes"
+    },
+    {
+        "question": "as of december 31 , 2017 , what was the percent of the 2016 program remaining available for purchase",
+        "direct_answer": "unknown",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "unknown",
+        "true_answer": 0.48
+    },
+    {
+        "question": "In the year with the most Total fixed rate debt, what is the amount of Variable rate debt and total?",
+        "direct_answer": "502919,7669268",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "502919,7669268",
+        "true_answer": 8342.0
+    },
+    {
+        "question": "what's the total amount of Loss expenses Casualty of 2008 Gross, and Case reserves of 2009 Gross ?",
+        "direct_answer": "3871, 17307",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "3871, 17307",
+        "true_answer": 21178.0
+    },
+    {
+        "question": "What is the proportion of Pensions' Service cost of of net periodic benefit cost in U.S. Plans to the total in 2006?",
+        "direct_answer": "0.73864",
+        "formula_ans": 0.73864,
+        "formula": "130 / 176",
+        "predict_answer": 0.73864,
+        "true_answer": 0.625
+    },
+    {
+        "question": "What is the total amount of Net cash used in financing activities of 2010, Individual fixed annuities of Net Investment Income, and Group retirement products of Total Revenues ?",
+        "direct_answer": "3363",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "3363",
+        "true_answer": 15200.0
+    },
+    {
+        "question": "What is the proportion of Land and land development for Nonperforming Loans andForeclosed Properties-1 to the total in 2011?",
+        "direct_answer": "0.15147",
+        "formula_ans": 0.15147,
+        "formula": "530 / 3499",
+        "predict_answer": 0.15147,
+        "true_answer": 0.11799
+    },
+    {
+        "question": "What is the sum of CET1 capital, Tier 1 capital and Total capital in 2017? (in million)",
+        "direct_answer": "46646",
+        "formula_ans": 46646,
+        "formula": "14309 + 14556 + 17781",
+        "predict_answer": 46646,
+        "true_answer": 1122758.0
+    },
+    {
+        "question": "What's the sum of the Unit redemptions in the years where Mortgages Payable for Carrying Amounts is positive?",
+        "direct_answer": "-69999",
+        "formula_ans": -69999,
+        "formula": "-14889 + -55110",
+        "predict_answer": -69999,
+        "true_answer": -69999.0
+    },
+    {
+        "question": "In the section with the most Liquid hydrocarbons(mmbbl), what is the growth rate of Natural gas(bcf)?",
+        "direct_answer": "-0.01231",
+        "formula_ans": -0.01231,
+        "formula": "(854099 - 864742) / 864742",
+        "predict_answer": -0.01231,
+        "true_answer": 0.21815
+    },
+    {
+        "question": "by what percentage did the aeco natural gas sales index decline from 2011 to 2013?",
+        "direct_answer": "0",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "0",
+        "true_answer": -0.16304
+    },
+    {
+        "question": "What is the ratio of all amount that are smaller than 100 to the sum of amount, in 2008? (in %)",
+        "direct_answer": "0.00000",
+        "formula_ans": 0.0,
+        "formula": "(0 / (324590 + 28800 + 20981 + 6061)) * 100",
+        "predict_answer": "0.00000",
+        "true_answer": 0.03253
+    },
+    {
+        "question": "What will active in equity be like in 2018 if it develops with the same increasing rate as current? (in million)",
+        "direct_answer": "352155.32",
+        "formula_ans": 352143.34891,
+        "formula": "311209 + (311209 * (311209 - 275033) / 275033)",
+        "predict_answer": 352143.34891,
+        "true_answer": 352143.34891
+    },
+    {
+        "question": "As the chart 2 shows, what is the Weighted average exercise price for Balance at December 31, 2005 ?",
+        "direct_answer": "52.79",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "52.79",
+        "true_answer": "52.79"
+    },
+    {
+        "question": "What will Projected benefit obligation at beginning of year of Con Edison reach in 2016 if it continues to grow at its current rate? (in million)",
+        "direct_answer": "14463.585",
+        "formula_ans": "",
+        "formula": "7315 * (1 + ((7315-6695)/6695 + (6695-6434)/6434)/2)^{11}",
+        "predict_answer": "14463.585",
+        "true_answer": 18646.92638
+    },
+    {
+        "question": "What is the average amount of Case reserves of 2008 Net, and Exercise of stock options of 2008 ?",
+        "direct_answer": "not available",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "not available",
+        "true_answer": 1183607.0
+    },
+    {
+        "question": "What will Professional services be like in 2012 if it develops with the same increasing rate as current?",
+        "direct_answer": "65799.181",
+        "formula_ans": 65881.92451,
+        "formula": "60807 * (1 + (60807 - 56123) / 56123)",
+        "predict_answer": 65881.92451,
+        "true_answer": 43.36194
+    },
+    {
+        "question": "In the year with lowest amount of Distribution fees, what's the increasing rate of Net investment income? (in %)",
+        "direct_answer": "0.01918",
+        "formula_ans": 0.01919,
+        "formula": "(3878 - 3805) / 3805",
+        "predict_answer": 0.01919,
+        "true_answer": "67"
+    },
+    {
+        "question": "what's the total amount of No surrender charge of 2010 Individual Fixed Annuities, Change in cash of 2008, and Total reserves of 2010 Individual Variable Annuities ?",
+        "direct_answer": "45945",
+        "formula_ans": 45945,
+        "formula": "14006 + 6358 + 25581",
+        "predict_answer": 45945,
+        "true_answer": 45945.0
+    },
+    {
+        "question": "what was the percent of the decline in the gross unrecognized tax benefits from 2009 to 2010",
+        "direct_answer": "0.28032",
+        "formula_ans": 0.28029,
+        "formula": "(218040 - 156925) / 218040",
+        "predict_answer": 0.28029,
+        "true_answer": -0.0801
+    },
+    {
+        "question": "Does the average value of total revenues in United State greater than that in Europe (a)?",
+        "direct_answer": "yes",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "yes",
+        "true_answer": "yes"
+    },
+    {
+        "question": "How many elements for Issued of Common Stock show negative value in 2004?",
+        "direct_answer": "0",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "0",
+        "true_answer": "1"
+    },
+    {
+        "question": "What is the sum of Investment real estate in 2012 and Gain (loss) recognized in OCI on derivatives in 2011? (in million)",
+        "direct_answer": "Non-Computable due to missing data",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "Non-Computable due to missing data",
+        "true_answer": 3190.0
+    },
+    {
+        "question": "In which year is Securities loaned greater than 14000?",
+        "direct_answer": "None",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "None",
+        "true_answer": "2017"
+    },
+    {
+        "question": "what is the growth rate in operating income of hr solutions from 2009 to 2010?",
+        "direct_answer": "N/A",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "N/A",
+        "true_answer": 0.15271
+    },
+    {
+        "question": "What's the increasing rate of Investment Bank for Total in 2009?",
+        "direct_answer": "0.40748",
+        "formula_ans": 0.40733,
+        "formula": "(4685 - 3329) / 3329",
+        "predict_answer": 0.40733,
+        "true_answer": 0.13102
+    },
+    {
+        "question": "What was the total amount of elements for RevPAR excluding those elements greater than 150 in 2016 ?",
+        "direct_answer": "7",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "7",
+        "true_answer": 919.82
+    },
+    {
+        "question": "Is the total amount of all elements in 2014 greater than that in 2013 for CHANGE IN PROJECTED BENEFIT OBLIGATION for Con Edison?",
+        "direct_answer": "yes",
+        "formula_ans": "",
+        "formula": "(12197 + 221 + 572 + 2641 + 6 - 556) > (13406 + 259 + 537 - 1469 + 0 - 536)",
+        "predict_answer": "yes",
+        "true_answer": "no"
+    },
+    {
+        "question": "When does Premiums earned in As previously reported reach the largest value?",
+        "direct_answer": "2018-2027",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "2018-2027",
+        "true_answer": "2015"
+    },
+    {
+        "question": "What was the total amount of Expenses in 2008 for Amount? (in thousand)",
+        "direct_answer": "1261000",
+        "formula_ans": 1261000,
+        "formula": "1261 * 1000",
+        "predict_answer": 1261000,
+        "true_answer": 80251.0
+    },
+    {
+        "question": "What was the total amount of Volume \u2013 Units excluding those Volume \u2013 Units greater than 1000 inEMEA Latin America",
+        "direct_answer": "57.3",
+        "formula_ans": 57.3,
+        "formula": "15.1 + 12.9 + 23.4 + 5.9",
+        "predict_answer": 57.3,
+        "true_answer": 1359.5
+    },
+    {
+        "question": "what was the percentage change in the the fair value of our foreign currency forward contracts from 2008 to 2009",
+        "direct_answer": "1.27788",
+        "formula_ans": -1.27753,
+        "formula": "(6427 - (-23158)) / -23158",
+        "predict_answer": -1.27753,
+        "true_answer": -0.75
+    },
+    {
+        "question": "Which year is Residential mortgage for Recoveries of loans and leases previously charged off the most?",
+        "direct_answer": "2014",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "2014",
+        "true_answer": "2014"
+    },
+    {
+        "question": "What's the increasing rate of Secured debt in 2006 Ended December 31?",
+        "direct_answer": "0.05973",
+        "formula_ans": 0.05972,
+        "formula": "(1182919 - 1116259) / 1116259",
+        "predict_answer": 0.05972,
+        "true_answer": 0.05972
+    },
+    {
+        "question": "when pnc redeemed all shares of the series m preferred stock from the trust on december 10 , 2012 , what was the total cash cost of the redemption?",
+        "direct_answer": "not available",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "not available",
+        "true_answer": 500100000.0
+    },
+    {
+        "question": "How many Balance at Beginning of Period exceed the average of Balance at Beginning of Period in 2006?",
+        "direct_answer": "0",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "0",
+        "true_answer": "1"
+    },
+    {
+        "question": "In which year is Commercial Utilized Loans and leases positive?",
+        "direct_answer": "2015",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "2015",
+        "true_answer": "2009"
+    },
+    {
+        "question": "Does the average value of Loans and leases in 2014 greater than that in 2013",
+        "direct_answer": "yes",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "yes",
+        "true_answer": "yes"
+    },
+    {
+        "question": "What's the sum of Fixed income in 2015? (in millions)",
+        "direct_answer": "Unavailable",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "Unavailable",
+        "true_answer": 317885.0
+    },
+    {
+        "question": "What is the sum of Unrecognized net loss CHANGE IN PLAN ASSETS of CECONY 2015, Operating earnings of 2008, and FUNDED STATUS CHANGE IN PLAN ASSETS of Con Edison 2014 ?",
+        "direct_answer": "1139",
+        "formula_ans": 1139,
+        "formula": "3704 + 1021 - 3586",
+        "predict_answer": 1139,
+        "true_answer": 8311.0
+    },
+    {
+        "question": "Does the average value of As of January 1 in Number of Awards greater than that in Weighted Average Grant Date Fair Value?",
+        "direct_answer": "yes",
+        "formula_ans": "",
+        "formula": "((2817786 + 3105361 + 3261562) / 3) > ((104.41 + 92.31 + 85.17) / 3)",
+        "predict_answer": "yes",
+        "true_answer": "yes"
+    },
+    {
+        "question": "In the year with the most Estimated Fair Value in terms of Other, what is the growth rate of Estimated Fair Value of Communications?",
+        "direct_answer": "None",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "None",
+        "true_answer": -0.25589
+    },
+    {
+        "question": "What's the total amount of Rental and management in 2010? (in thousand)",
+        "direct_answer": "Not Available",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "Not Available",
+        "true_answer": 2384002.0
+    },
+    {
+        "question": "What's the sum of Client deposits of Average Balance Year Ended December 31, 2013, and U.S. of As of December 31, 2012 ?",
+        "direct_answer": "152688",
+        "formula_ans": 152688,
+        "formula": "143043 + 9645",
+        "predict_answer": 152688,
+        "true_answer": 191913.0
+    },
+    {
+        "question": "what is the percentage change in rent expense for operating leases from 2001 to 2002?",
+        "direct_answer": "None",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "None",
+        "true_answer": 0.14286
+    },
+    {
+        "question": "In the year with the most Granted for shares(in thousands), what is the growth rate of Outstanding ? (in %)",
+        "direct_answer": "0.25065",
+        "formula_ans": 0.25063,
+        "formula": "(13154605 - 10518344) / 10518344",
+        "predict_answer": 0.25063,
+        "true_answer": -0.12537
+    },
+    {
+        "question": "what is the growth rate in earnings for non-utility nuclear in 2004 compare to 2003?",
+        "direct_answer": "n/a",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "n/a",
+        "true_answer": -0.18551
+    },
+    {
+        "question": "What's the sum of Construction Payable of Estimated Fair Value, and Net sales of 2013 ?",
+        "direct_answer": "66208",
+        "formula_ans": 66208,
+        "formula": "44725 + 21483",
+        "predict_answer": 66208,
+        "true_answer": 66208.0
+    },
+    {
+        "question": "What's the sum of Seattle Metro of As of December 31, 2010 Apartment Units, and Huntington Breakers of RentableSquareFootage ?",
+        "direct_answer": "247680",
+        "formula_ans": 247680,
+        "formula": "5980 + 241700",
+        "predict_answer": 247680,
+        "true_answer": 247680.0
+    },
+    {
+        "question": "what is the highest total amount of Aircraft on Firm Order?",
+        "direct_answer": "63",
+        "formula_ans": "",
+        "formula": "5 + 33 + 8 + 5 + 2 + 10 = 63",
+        "predict_answer": "63",
+        "true_answer": "33"
+    },
+    {
+        "question": "What is the average amount of Repurchases from securitization trusts of Residential Mortgage Agency 2016, and Allowance for loan and lease losses, January 1 of 2015 ?",
+        "direct_answer": "3611",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "3611",
+        "true_answer": 9015.0
+    },
+    {
+        "question": "what percentage of employees are subject to collective bargaining agreements?",
+        "direct_answer": "0.285",
+        "formula_ans": 0.285,
+        "formula": "28.5 / 100",
+        "predict_answer": 0.285,
+        "true_answer": 0.14509
+    },
+    {
+        "question": "In the year with lowest amount of Total marketing, promotion, rewards and Card Member services and other, what's the increasing rate of Card Member rewards in 2014?",
+        "direct_answer": "0.00938",
+        "formula_ans": 0.00938,
+        "formula": "65 / 6931",
+        "predict_answer": 0.00938,
+        "true_answer": 0.33451
+    },
+    {
+        "question": "What is the sum of Premiums in 2012 and Negotiated amount in 2011? (in million)",
+        "direct_answer": "1223",
+        "formula_ans": 1223,
+        "formula": "1223 + 0",
+        "predict_answer": 1223,
+        "true_answer": 674.0
+    },
+    {
+        "question": "What was the total amount of UPS Contributions and Accruals in the range of 100 and 1000 in 2013? (in million)",
+        "direct_answer": "100",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "100",
+        "true_answer": 655.0
+    },
+    {
+        "question": "What will Interest Income reach in 2008 if it continues to grow at its current rate?",
+        "direct_answer": "14.05578",
+        "formula_ans": 14.05499,
+        "formula": "12.8 * (1 + ((15.8 - 11.4) / 11.4 + (12.8 - 15.8) / 15.8) / 2)",
+        "predict_answer": 14.05499,
+        "true_answer": 678752.8997
+    },
+    {
+        "question": "What is the sum of Net credit losses in 2009 and Gains on sales of real estate and other in 2006? (in million)",
+        "direct_answer": "Data not available",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "Data not available",
+        "true_answer": 24611.0
+    },
+    {
+        "question": "What is the difference between the greatest Premiums earned in As previously reported in 2015 and 2014?",
+        "direct_answer": "0",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "0",
+        "true_answer": 312324.0
+    },
+    {
+        "question": "What is the difference between the greatest Sales Volumes in 2009 and 2008\uff1f",
+        "direct_answer": "Not Available",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "Not Available",
+        "true_answer": -2.0
+    },
+    {
+        "question": "what's the total amount of U.S. of As of December 31, 2014, and Client deposits of December 31, 2014 ?",
+        "direct_answer": "Not Available",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "Not Available",
+        "true_answer": 210184.0
+    },
+    {
+        "question": "what is the percent change in average cds that were excluded between 2013 and 2014?",
+        "direct_answer": "none",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "none",
+        "true_answer": 1.748
+    },
+    {
+        "question": "If Total operating revenues develops with the same increasing rate in 2011, what will it reach in 2012? (in million)",
+        "direct_answer": "24866.223",
+        "formula_ans": 24866.223,
+        "formula": "23979 + (23979 * 0.037)",
+        "predict_answer": 24866.223,
+        "true_answer": 4801.47399
+    },
+    {
+        "question": "What is the sum of Revenues in 2008 on September 30 ? (in thousand)",
+        "direct_answer": "351469",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "351469",
+        "true_answer": 21302.0
+    },
+    {
+        "question": "what was the percentage change in fuel surcharge revenues from 2011 to 2012?",
+        "direct_answer": "none",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "none",
+        "true_answer": 0.18182
+    },
+    {
+        "question": "What's the sum of Unvested at December 31, 2018 of Shares, and Adjusted balance, beginning of period of Benefit plans ?",
+        "direct_answer": "0",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "0",
+        "true_answer": 31733712.0
+    },
+    {
+        "question": "What is the average amount of Land of December 31, 2016, and Interest expense, net of Year Ended December 31, 2014 ?",
+        "direct_answer": "not available",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "not available",
+        "true_answer": 44454.5
+    },
+    {
+        "question": "What's the average of Employee separations of Liability as of December 31, 2005, and Investing activities of Year Ended December 31, 2006 ?",
+        "direct_answer": "-54074.5",
+        "formula_ans": -54074.5,
+        "formula": "(20963 + -129112) / 2",
+        "predict_answer": -54074.5,
+        "true_answer": 75037.5
+    },
+    {
+        "question": "What is the total value of Operating income, Other investment income/(losses), Equity in earnings of unconsolidated affiliates and Interest and dividend income for before consolidation ? (in million)",
+        "direct_answer": "711.7",
+        "formula_ans": 711.7,
+        "formula": "644.9 + 15.6 + 40.8 + 10.4",
+        "predict_answer": 711.7,
+        "true_answer": 711.7
+    },
+    {
+        "question": "What is the percentage of Consumer in relation to the total in 2008 ? (in %)",
+        "direct_answer": "0.58300",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "0.58300",
+        "true_answer": 0.12857
+    },
+    {
+        "question": "What's the sum of Repurchases from securitization trusts of Residential Mortgage Agency 2015, and U.S. credit card Loans and leases charged off of 2013 ?",
+        "direct_answer": "7720",
+        "formula_ans": 7720,
+        "formula": "3716 + 4004",
+        "predict_answer": 7720,
+        "true_answer": 7720.0
+    },
+    {
+        "question": "what was the average share price that the shares were repurchased in 2011?",
+        "direct_answer": "None",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "None",
+        "true_answer": 34.228
+    },
+    {
+        "question": "What's the average of the Fuel for Amount in the years where Wheelabrator is positive?",
+        "direct_answer": "836",
+        "formula_ans": 836.0,
+        "formula": "(846 + 845 + 817) / 3",
+        "predict_answer": 836.0,
+        "true_answer": 626.66667
+    },
+    {
+        "question": "What's the greatest value of Stores Opened in 2011?",
+        "direct_answer": "86",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "86",
+        "true_answer": "86"
+    },
+    {
+        "question": "What's the difference of Residential/Religious of kWhs Delivered between 2005 and 2004? (in million)",
+        "direct_answer": "232",
+        "formula_ans": 232,
+        "formula": "12673 - 12441",
+        "predict_answer": 232,
+        "true_answer": 1017.0
+    },
+    {
+        "question": "What will Investment securities be like in 2013 if it develops with the same increasing rate as current? (in million)",
+        "direct_answer": "126717",
+        "formula_ans": 124994.78858,
+        "formula": "82631 * ((1 + 0.0863) ** 5)",
+        "predict_answer": 124994.78858,
+        "true_answer": 62187.8292
+    },
+    {
+        "question": "What is the sum of Net written premiums in the range of 1 and 3000 in 2014? (in million)",
+        "direct_answer": "1008",
+        "formula_ans": 1008,
+        "formula": "1008",
+        "predict_answer": 1008,
+        "true_answer": 6536.0
+    },
+    {
+        "question": "What is the growing rate of Balance on December 31 in the year where Foreign exchange translation is the most?",
+        "direct_answer": "0.10286",
+        "formula_ans": 0.10286,
+        "formula": "(193 - 175) / 175",
+        "predict_answer": 0.10286,
+        "true_answer": -0.06413
+    },
+    {
+        "question": "What was the total amount of the Additions to customer relationship and acquisition costs in the sections where Cash Flows from Operating Activities greater than 0?",
+        "direct_answer": "-8420",
+        "formula_ans": -8420,
+        "formula": "(-7292) + (-319) + (-809)",
+        "predict_answer": -8420,
+        "true_answer": -28872.0
+    },
+    {
+        "question": "what is the percentage change in the balance of asset allocation from 2016 to 2017?",
+        "direct_answer": "",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "",
+        "true_answer": 0.11247
+    },
+    {
+        "question": "What will Net revenues reach in 2009 if it continues to grow at its current rate? (in thousands)",
+        "direct_answer": "555300",
+        "formula_ans": "",
+        "formula": "555300 = 536700 + ((555300 - 536700) / 536700) * 536700",
+        "predict_answer": "555300",
+        "true_answer": 9508604.16311
+    },
+    {
+        "question": "what was the percent change in operating leases between 2011/12 and 2013/4?",
+        "direct_answer": "0.10577",
+        "formula_ans": 0.10577,
+        "formula": "(34.5 - 31.2) / 31.2",
+        "predict_answer": 0.10577,
+        "true_answer": -0.44118
+    },
+    {
+        "question": "what was the percentage change in net cash provided by operating activities from 2016 to 2017?",
+        "direct_answer": "-0.17377",
+        "formula_ans": -0.17376,
+        "formula": "(12753 - 15435) / 15435",
+        "predict_answer": -0.17376,
+        "true_answer": 0.01385
+    },
+    {
+        "question": "what is the roi of an investment in s&p500 index from 2011 to 2012?",
+        "direct_answer": "0.06827",
+        "formula_ans": 0.06825,
+        "formula": "(105.49 - 98.75) / 98.75",
+        "predict_answer": 0.06825,
+        "true_answer": 0.16
+    },
+    {
+        "question": "what is the percentage increase from 2008 customer satisfaction index to the 2010 customer satisfaction index?",
+        "direct_answer": "0.07229",
+        "formula_ans": 0.07229,
+        "formula": "(89 - 83) / 83",
+        "predict_answer": 0.07229,
+        "true_answer": 0.07229
+    },
+    {
+        "question": "When is Benefit obligation at beginning of year for Con Edison the largest?",
+        "direct_answer": "2015",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "2015",
+        "true_answer": "2013"
+    },
+    {
+        "question": "what is the growth rate in net reserves in 2006?",
+        "direct_answer": "0.13518",
+        "formula_ans": 0.13518,
+        "formula": "(511.4 - 450.5) / 450.5",
+        "predict_answer": 0.13518,
+        "true_answer": 0.13518
+    },
+    {
+        "question": "What's the growth rate of Net income of the Fourth Quarter in 2016?",
+        "direct_answer": "-1.18883",
+        "formula_ans": -1.18798,
+        "formula": "(-222 - 1181) / 1181",
+        "predict_answer": -1.18798,
+        "true_answer": 0.42996
+    },
+    {
+        "question": "What is the total amount of Net sales of 2012, Commercial paper of 2010 Fair Value, and U.S. government and agency securities of 2011 Fair Value ?",
+        "direct_answer": "10913",
+        "formula_ans": 10913,
+        "formula": "8846 + 1046 + 1021",
+        "predict_answer": 10913,
+        "true_answer": 10913.0
+    },
+    {
+        "question": "what is the total value of rsus converted to bhge rsus , in millions?",
+        "direct_answer": "0",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "0",
+        "true_answer": 68.306
+    },
+    {
+        "question": "What is the ratio of Commercial \u2013 domestic to the total in 2009?",
+        "direct_answer": "0",
+        "formula_ans": "",
+        "formula": "None",
+        "predict_answer": "0",
+        "true_answer": 0.48153
+    }
+]
