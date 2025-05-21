@@ -16,6 +16,7 @@ The comprehensive experiment results demonstrate that MixRAG boosts top‑1 retr
 
 This is the structure of the MixRAG project:
 
+```text
 Mixture-of-RAG/
 ├── README.md                   # Project documentation
 ├── DocLibRAG/                  # Dataset and corpus files
@@ -45,6 +46,7 @@ Mixture-of-RAG/
 │       └── visualization.py    # Result visualization
 └── open_source_LLM/            # Open-source LLM deployment
     └── launch_llm_server.py    # LLM server configuration
+```
 
 
 ## DocLibRAG Dataset
