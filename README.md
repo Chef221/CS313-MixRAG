@@ -20,32 +20,42 @@ This is the structure of the MixRAG project:
 Mixture-of-RAG/
 ├── README.md                   # Project documentation
 ├── DocLibRAG/                  # Dataset and corpus files
-│   ├── dev_documents.json      # Development document corpus
-│   ├── dev_qa.json             # Development QA pairs
-│   ├── train_documents.json    # Training document corpus
-│   └── train_qa.json           # Training QA pairs
+│   ├── scalability dataset/
+│   │   ├── documents-280.json          
+│   │   ├── documents-1000.json  
+│   │   ├── documents-1000.json          
+│   │   └── documents-1500.json
+│   │   ├── documents-2178.json          
+│   │   └── QA.json                
+│   ├── Documents.json      
+│   ├── dev_qa.json             
+│   ├── test_qa.json    
+│   └── train_qa.json           
 ├── result/                     # Output results directory
-│   ├── predictions/            # Model predictions
-│   └── evaluation/             # Evaluation metrics and analysis
+│   ├── abalation_result/            
+│   ├── MixRAG-result1/            
+│   ├── MixRAG-result2/            
+│   └── scalability_result/            
 ├── src/                        # Source code
-│   ├── config.py               # Configuration settings
-│   ├── main.py                 # Main entry point
-│   ├── embedding/              # Embedding models and utilities
-│   │   ├── encoder.py          # Text and table encoders
-│   │   └── H_RCL.py            # Hierarchy row-and-column-level representation
-│   ├── retriever/              # Retrieval components
-│   │   ├── bm25.py             # BM25 retrieval implementation
-│   │   ├── embedding.py        # Embedding-based retrieval
-│   │   └── reranker.py         # LLM-based reranking
-│   ├── reasoner/               # Reasoning components
-│   │   ├── RECAP.py            # RECAP prompt strategy implementation
-│   │   └── calculator.py       # External calculator integration
-│   └── utils/                  # Utility functions
-│       ├── data_processing.py  # Data preprocessing utilities
-│       ├── evaluation.py       # Evaluation metrics
-│       └── visualization.py    # Result visualization
-└── open_source_LLM/            # Open-source LLM deployment
-    └── launch_llm_server.py    # LLM server configuration
+│   ├── config.py               
+│   ├── main.py                 
+│   ├── utils.py                
+│   ├── evaluate/             
+│   │   └── evaluate.py            
+│   ├── open_source_LLM_invocation/              
+│   │   ├── inference.py             
+│   │   ├── lanuch_llm_json_server.py        
+│   │   └── launch_llm_server.py         
+│   ├── preprocess/
+│   ├── prompt/             
+│   └── qa/                  
+│   │   └── QA_module.py   # Result visualization
+│   └── reranker/                  
+│   │   ├── bge_reranker.py             
+│   │   ├── crossEncoder_reranker.py        
+│   │   └── LLM_reranker.py   
+│   └── retriever/                  
+│   │   └── retriever.py   # Result visualization
 ```
 
 
