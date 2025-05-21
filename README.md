@@ -60,7 +60,25 @@ Mixture-of-RAG/
 
 ## DocLibRAG Dataset
 
-To bridge the gap of heterogeneous data availability, we construct the DocRAGLib dataset based on existing relevant datasets and data crawled from the web. DocRAGLib contains 2,178 documents, combining text and table content, and includes 4,468 QA pairs designed based on the content of these documents. Existing datasets are predominantly tailored for single-document RAG tasks, limiting their applicability to scenarios requiring the processing of large-scale and complex document corpora. DocRAGLib aims to address this limitation by providing a comprehensive dataset specifically designed for multi-document RAG tasks.
+To bridge the gap of heterogeneous data availability, we construct the DocRAGLib dataset based on existing relevant datasets and data crawled from the web. DocRAGLib contains 2,178 documents, combining text and table content, and includes 4,468 QA pairs designed based on the content of these documents. Existing datasets are predominantly tailored for single-document RAG tasks, limiting their applicability to scenarios requiring the processing of large-scale and complex document corpora. DocRAGLib aims to address this limitation by providing a comprehensive dataset specifically designed for multi-document RAG tasks. 
+The statistical analysis of the dataset is as follows:
+| **Indicator**                                              | **Value**             |
+| ---------------------------------------------------------- | --------------------- |
+| **Total Document Number**                                  | **2,178**             |
+| &nbsp;&nbsp;Avg. Word Number per Document                  | 1,453.05              |
+| &nbsp;&nbsp;Avg. Table Number per Document                 | 3.85                  |
+| &nbsp;&nbsp;Documents with &gt;2 Tables                     | 1,932 (88.71%)        |
+| **Total QA Pairs Number**                                  | **4,468**             |
+| &nbsp;&nbsp;Train/Dev/Test                                  | 2,990/502/976         |
+| **Classification by Evidence Source**                      |                       |
+| &nbsp;&nbsp;Text Only                                       | 403 (9.02%)           |
+| &nbsp;&nbsp;Table Only                                      | 2,269 (50.78%)        |
+| &nbsp;&nbsp;Both Text and Table                             | 1,796 (40.20%)        |
+| **Answer Characteristics**                                 |                       |
+| &nbsp;&nbsp;Decimal Places ≥3                               | 1,532 (34.29%)        |
+| &nbsp;&nbsp;Numerical Values &gt;10,000                      | 865 (19.36%)          |
+| &nbsp;&nbsp;Numerical Values &gt;100,000                     | 181 (4.05%)           |
+
 
 ## Baseline
 
