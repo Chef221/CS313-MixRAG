@@ -18,44 +18,43 @@ This is the structure of the MixRAG project:
 
 ```text
 Mixture-of-RAG/
-├── README.md                   # Project documentation
-├── DocLibRAG/                  # Dataset and corpus files
-│   ├── scalability dataset/
+├── README.md                           # Project documentation
+├── DocLibRAG/                          # Dataset and corpus files
+│   ├── scalability_dataset/            # Scalability evaluation datasets
 │   │   ├── documents-280.json          
-│   │   ├── documents-1000.json  
-│   │   ├── documents-1000.json          
-│   │   └── documents-1500.json
-│   │   ├── documents-2178.json          
-│   │   └── QA.json                
-│   ├── Documents.json      
-│   ├── dev_qa.json             
-│   ├── test_qa.json    
-│   └── train_qa.json           
-├── result/                     # Output results directory
-│   ├── abalation_result/            
-│   ├── MixRAG-result1/            
-│   ├── MixRAG-result2/            
-│   └── scalability_result/            
-├── src/                        # Source code
-│   ├── config.py               
-│   ├── main.py                 
-│   ├── utils.py                
-│   ├── evaluate/             
-│   │   └── evaluate.py            
-│   ├── open_source_LLM_invocation/              
-│   │   ├── inference.py             
-│   │   ├── lanuch_llm_json_server.py        
-│   │   └── launch_llm_server.py         
-│   ├── preprocess/
-│   ├── prompt/             
-│   └── qa/                  
-│   │   └── QA_module.py   # Result visualization
-│   └── reranker/                  
-│   │   ├── bge_reranker.py             
-│   │   ├── crossEncoder_reranker.py        
-│   │   └── LLM_reranker.py   
-│   └── retriever/                  
-│   │   └── retriever.py   # Result visualization
+│   │   ├── documents-1000.json      
+│   │   ├── documents-1500.json      
+│   │   ├── documents-2178.json         
+│   │   └── QA.json                     
+│   ├── Documents.json                  # Document corpus
+│   ├── dev_qa.json                     # Development QA pairs
+│   ├── test_qa.json                    # Test QA pairs
+│   └── train_qa.json                   # Training QA pairs
+├── result/                             # Output results directory
+│   ├── ablation_result/               
+│   ├── MixRAG-result1/                
+│   ├── MixRAG-result2/                
+│   └── scalability_result/             
+├── src/                                # Source code
+│   ├── config.py                       # Configuration settings
+│   ├── main.py                         # Main entry point
+│   ├── utils.py                        # Utility functions
+│   ├── evaluate/                       # Evaluation modules
+│   │   └── evaluate.py                
+│   ├── open_source_LLM_invocation/     # Open-source LLM integration
+│   │   ├── inference.py               
+│   │   ├── launch_llm_json_server.py   
+│   │   └── launch_llm_server.py        
+│   ├── preprocess/                     # Data preprocessing
+│   ├── prompt/                         # Prompt templates and strategies
+│   ├── qa/                             # Question answering modules
+│   │   └── QA_module.py              
+│   ├── reranker/                       # Reranking components
+│   │   ├── bge_reranker.py          
+│   │   ├── crossEncoder_reranker.py   
+│   │   └── LLM_reranker.py             
+│   └── retriever/                      # Retrieval components
+│       └── retriever.py               
 ```
 
 
