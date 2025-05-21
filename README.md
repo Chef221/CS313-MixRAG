@@ -94,6 +94,19 @@ The statistical analysis of the dataset is as follows:
 
 ## Running the Code
 
+### Generate corpus
+
+Execute the following command to generate the H-RCL corpus:
+
+```bash
+bash preprocess_RCL.sh
+```
+
+Execute the following command to generate the General RCL corpus:
+```bash
+bash preprocess_general.sh
+```
+
 ### Configuration Options
 
 #### Option 1: **Using `config.py` for Default Configuration**
