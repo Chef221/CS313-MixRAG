@@ -75,15 +75,11 @@ To bridge the gap of heterogeneous data availability, we construct the DocRAGLib
 ```json
 [
   {
-    "uid": "",
-    "paragraphs":"",
-    "tables": [
-      {
-       "table1",
-       "table2"
-        ...
-      }
-...
+    "uid": "<document_uid>",
+    "paragraphs":"<The textual part of the document>",
+    "tables": ["table1","table2",...]
+  },
+  ...
 ]
 ```
 
