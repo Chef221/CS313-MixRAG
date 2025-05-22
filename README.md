@@ -69,6 +69,11 @@ To bridge the gap of heterogeneous data availability, we construct the DocRAGLib
   ...
 ]
 ```
+#### Field Descriptions:
+- **question_uid**: Unique identifier for each question in the dataset
+- **question**: The natural language question text that requires information from documents
+- **answer**: The ground truth answer to the question, can be numerical or textual
+- **document_uid**: Reference identifier linking to the source document containing information needed to answer the question
 
 #### Documents Format (Documents.json)
 
@@ -82,6 +87,10 @@ To bridge the gap of heterogeneous data availability, we construct the DocRAGLib
   ...
 ]
 ```
+#### Field Descriptions:
+- **uid**: Unique identifier for each document in the corpus
+- **paragraphs**: The textual content of the document, containing narrative information
+- **tables**: List of structured tabular data contained within the document, with hierarchical information
 
 The statistical analysis of the dataset is as follows:
 | **Indicator**                                              | **Value**             |
