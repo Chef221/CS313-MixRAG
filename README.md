@@ -4,13 +4,13 @@ Code Implementation of Paper: **Mixture-of-RAG: Integrating Text and Tables with
 ## Overview
 
 Large language models (LLMs) achieve optimal utility when their responses are grounded in external knowledge sources.
-However, real-world documents, such as annual reports, scientific papers, and clinical guidelines, frequently combine extensive narrative content with complex, hierarchically structured tables. 
-While existing retrieval‑augmented generation (RAG) systems effectively integrate LLMs’ generative capabilities with external retrieval-based information, their performance significantly deteriorates especially processing such heterogeneous text-table hierarchies. 
-To address this limitation, we formalize the task of Heterogeneous
+
+In this paper, we formalize the task of Heterogeneous
 Document RAG, which requires joint retrieval and reasoning across textual and hierarchical tabular data. 
-We propose MixRAG, a novel three‑stage framework: (i) hierarchy row-and-column-level (H-RCL) representation that preserves hierarchical structure and heterogeneous relationship, (ii) an ensemble retriever with LLM-based reranking for evidence alignment, and (iii) multi‑step reasoning decomposition via a RECAP prompt strategy. 
+
 To bridge the gap in available data for this domain, we release a large-scale dataset DocRAGLib, a 2k‑document corpus paired with automatically aligned text‑table summaries and gold document annotations. 
-The comprehensive experiment results demonstrate that MixRAG boosts top‑1 retrieval by 46%  over strong text‑only, table‑only, and naive‑mixture baselines, establishing new state-of-the-art performance for mixed-modality document grounding.
+
+We propose MixRAG, a novel three‑stage framework: (i) hierarchy row-and-column-level (H-RCL) representation that preserves hierarchical structure and heterogeneous relationship, (ii) an ensemble retriever with LLM-based reranking for evidence alignment, and (iii) multi‑step reasoning decomposition via a RECAP prompt strategy. 
 
 ## Project Structure
 
@@ -20,21 +20,12 @@ This is the structure of the MixRAG project:
 Mixture-of-RAG/
 ├── README.md                           # Project documentation
 ├── DocLibRAG/                          # Dataset and corpus files
-│   ├── scalability_dataset/            # Scalability evaluation datasets
-│   │   ├── documents-280.json          
-│   │   ├── documents-1000.json      
-│   │   ├── documents-1500.json      
-│   │   ├── documents-2178.json         
-│   │   └── QA.json                     
+│   ├── scalability_dataset/            # Scalability evaluation dataset    
 │   ├── Documents.json                  # Document corpus
 │   ├── dev_qa.json                     # Development QA pairs
 │   ├── test_qa.json                    # Test QA pairs
 │   └── train_qa.json                   # Training QA pairs
-├── result/                             # Output results directory
-│   ├── ablation_result/               
-│   ├── MixRAG-result1/                
-│   ├── MixRAG-result2/                
-│   └── scalability_result/             
+├── result/                             # Output results directory    
 ├── src/                                # Source code
 │   ├── config.py                       # Configuration settings
 │   ├── main.py                         # Main entry point

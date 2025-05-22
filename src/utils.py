@@ -6,15 +6,18 @@ def read_json_file(file_path):
         data = json.load(file)
     return data
 
+
 def load_data(document_path, qa_path):
     documents = read_json_file(document_path)
     qa_dataset = read_json_file(qa_path)
 
     return documents, qa_dataset
 
+
 def load_corpus(corpus_path):
     df_corpus = pd.read_pickle(corpus_path)
     return df_corpus
+
 
 def filter(doc_list):
     filter_list = []
