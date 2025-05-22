@@ -1,835 +1,1002 @@
 [
     {
+        "question_uid": "61cb46bf-c9bc-4188-9049-797ea0c17c58",
         "question": "what is the median value of assets held by domestic enterprises in the utilities industry?",
         "answer": 0.29,
         "document_uid": "425934a0-1a7f-4315-8d69-7954a93fd93d"
     },
     {
+        "question_uid": "1e114e6b-7d44-4171-939e-d8e01572eb79",
         "question": "what was the percentage of direct-to-consumer trade by wholesalers accounting for cannabis-related retail activity?",
         "answer": 1.9,
         "document_uid": "29682deb-15af-4fa3-bfcb-8f0a9f254883"
     },
     {
+        "question_uid": "aa21c007-7ac5-4d97-a20b-1103b1c54c6b",
         "question": "how many dollars did the employees who lived in regions with relatively high layoff rates earned on average during the 2003-to-2013 period?",
         "answer": 37602.0,
         "document_uid": "b9bb0abe-c300-4447-bb3f-791b757b0b20"
     },
     {
+        "question_uid": "732d6a01-8f0c-445b-8cc5-647af83eac45",
         "question": "of the difference in the overall change in the employment rate of women aged 25 to 54 without a bachelor's degree, how many percentage points was attributable to the increase in the share of canadian women employed in educational services, health care and social assistance from 2000 to 2017?",
         "answer": 3.9,
         "document_uid": "3db8eb71-c366-40e0-981d-7b0395fa07be"
     },
     {
+        "question_uid": "3309e219-3852-4f85-84c1-ee9051f9ef87",
         "question": "regardless of the region considered, when was the employment rate of women aged 25 to 54 without a bachelor's degree higher, in 2000 or in 2017?",
         "answer": 2000.0,
         "document_uid": "3db8eb71-c366-40e0-981d-7b0395fa07be"
     },
     {
+        "question_uid": "710c55e7-e060-4ec4-9feb-69d23d6f247a",
         "question": "how much the participation rate declined from 2007 to 2016?",
         "answer": 1.7,
         "document_uid": "1cf0aa4f-e31a-4527-9f8a-caf39dee335e"
     },
     {
+        "question_uid": "9654db28-516f-4151-bc07-3b045fd6d229",
         "question": "what was the percentage of british columbian males aged 15 to 54 who received t4 earnings from construction?",
         "answer": 13.2,
         "document_uid": "80160b32-82fb-4daa-84bf-94a9620486f5"
     },
     {
+        "question_uid": "8419ed94-590f-46e6-9a57-2007360f8d89",
         "question": "in toronto, what percentage is the the average assessment value of condominium apartments owned by resettled refugees lower than the corresponding average among canadian-born owners?",
         "answer": 0.219077,
         "document_uid": "17d7f9df-7d2d-4185-8918-87d51dfe902d"
     },
     {
+        "question_uid": "a8e72d45-9500-4210-8c6a-57d670a850d3",
         "question": "how much did the citizenship rate fall among immigrants with university degreees between 1996 and 2016?",
         "answer": 13.8,
         "document_uid": "036ed03d-462d-49a7-a488-dba9c76e5a0b"
     },
     {
+        "question_uid": "b45d7b05-4133-4da9-bd42-242b0f1e3937",
         "question": "what was the percent of mining, quarrying, oil and gas extraction had the lowest year-on-year growth rates in closures?",
         "answer": 47.6,
         "document_uid": "51b9a8fa-dfc7-4446-9af5-b7d6b07c94d4"
     },
     {
+        "question_uid": "6d6be1da-a021-4775-a8ad-48a1f748f9ed",
         "question": "what is the percentage of new mothers who received ei benefits in 2012 were not issued an roe at all?",
         "answer": 10.5,
         "document_uid": "bb5f5d3b-7e61-4d4f-9b4e-c80392d97669"
     },
     {
+        "question_uid": "cf5785d0-4057-4054-90e2-bf6425f8b706",
         "question": "what is the percentage of female breast cancer tumours received a surgical intervention?",
         "answer": 88.2,
         "document_uid": "35313155-24a7-44b0-9606-39a61b58fe17"
     },
     {
+        "question_uid": "83cbe88f-0d71-44c0-8bc8-75df3ce1b4b8",
         "question": "what is the percentage of colorectal cancer tumours received a surgical intervention?",
         "answer": 83.0,
         "document_uid": "35313155-24a7-44b0-9606-39a61b58fe17"
     },
     {
+        "question_uid": "d3fd7f03-5459-4e29-91d1-76c69efaacc7",
         "question": "what was the percentage points were they far less likely to be union members?",
         "answer": -0.605,
         "document_uid": "2b2b41e6-04ce-43e7-9344-b8e4f50fd23a"
     },
     {
+        "question_uid": "794b94bb-9bbd-4109-bf97-b8b3ee4d0d66",
         "question": "from 1981 to 2009,what's the percentage of the log growth of value-added in oil and gas extraction per year?",
         "answer": -2.27,
         "document_uid": "f5105d65-5eb5-4141-94a7-d328d1dfe937"
     },
     {
+        "question_uid": "e42fe60c-fa24-4505-9a1a-87efc872004e",
         "question": "how many percentage points did the canada-u.s. difference in wage growth for men employed in manufacturing amount to from 2000 to 2017?",
         "answer": 1.8,
         "document_uid": "27b385fe-c7aa-42b7-a69d-496ef1f03291"
     },
     {
+        "question_uid": "eab24bbc-0581-4721-bdb7-1b691c094d9f",
         "question": "even after taking demographic and field of study differences into account, how many percent of undergraduate students who graduated in 2009 earned is less than those who graduated in 2008?",
         "answer": 8.1,
         "document_uid": "ddc497cf-da3f-4e0b-8b9c-1516f740df4b"
     },
     {
+        "question_uid": "e6f3158c-319f-4750-87a2-bfe83751ff49",
         "question": "what is the averages of income from other sources?",
         "answer": 9150.0,
         "document_uid": "9b000525-d194-4f6f-a332-f8c146d44a9f"
     },
     {
+        "question_uid": "f5ffd899-c07f-4665-8992-41a605ecc2e7",
         "question": "how many different approaches to account for compulsory schooling laws are used?",
         "answer": 3,
         "document_uid": "9b000525-d194-4f6f-a332-f8c146d44a9f"
     },
     {
+        "question_uid": "141c7dc3-d865-44ed-94c2-d8219b7fc717",
         "question": "how many times was the average dollar value of resp holdings among families in the top income quintile higher than those in the bottom quintile in 2012?",
         "answer": 7.680985,
         "document_uid": "d22cf141-5e35-425a-9d09-833bc21abd31"
     },
     {
+        "question_uid": "179ab391-1b01-4989-a4f9-84e8d11e69e1",
         "question": "in the 2006 cohort, how many percent of ce immigrant men had high earnings in canada before the base year?",
         "answer": 0.14,
         "document_uid": "053f963c-efb1-44fc-841e-262e29d81ab2"
     },
     {
+        "question_uid": "cdcf887e-3dd1-4d09-8e52-99fa45fb03df",
         "question": "what is the initial earnings advantage of ce immigrants when sociodemographic factors are controlled for in model 2 for 2006 cohort?",
         "answer": 0.25,
         "document_uid": "053f963c-efb1-44fc-841e-262e29d81ab2"
     },
     {
+        "question_uid": "28caa78d-84ae-4e27-a9f8-32a60eaeace9",
         "question": "what was the percentage did males account for all self-employed?",
         "answer": 54.0,
         "document_uid": "c2b8e79f-dc86-4a6a-b22d-8e1ed30f46d8"
     },
     {
+        "question_uid": "b414f50c-ba95-48fa-b60c-0861c72800b3",
         "question": "what's the percent of the decline in mfp growth between the two periods?",
         "answer": 0.6,
         "document_uid": "14c3e21c-02d6-4628-b2df-2654b332736f"
     },
     {
+        "question_uid": "94c6e145-608d-4f3f-b027-3beadb9a990c",
         "question": "what was the percentage of firms identified as having become small employed fewer than 100 workers for at least two out of the three post-transition years?",
         "answer": 77.8,
         "document_uid": "bdd2c8e1-ebf4-40a4-8b60-87bb1e8b00e4"
     },
     {
+        "question_uid": "1af223d3-a627-4b46-95b0-5af1a3a8eaf9",
         "question": "what was the percentage of firms that become large in the third and fourth productivity quartiles in year t-5 ?",
         "answer": 67,
         "document_uid": "bdd2c8e1-ebf4-40a4-8b60-87bb1e8b00e4"
     },
     {
+        "question_uid": "bb1ba545-63d6-4246-a04e-63e46d52266a",
         "question": "what was the percentage of firms that become small with workers only within one province or territory throughout the whole period?",
         "answer": 70.4,
         "document_uid": "bdd2c8e1-ebf4-40a4-8b60-87bb1e8b00e4"
     },
     {
+        "question_uid": "daf67e43-a3de-43af-9e47-81331dc31bc6",
         "question": "what is the ratio of mothers of second generation southeast asians with a university degree?",
         "answer": 8.7,
         "document_uid": "11e97aba-ce9b-4c26-b5be-6db5dee8f3cb"
     },
     {
+        "question_uid": "369ceb99-9732-4caa-af1a-9b89814aced8",
         "question": "what are the percentage of the shares for the goods-only?",
         "answer": 33.3,
         "document_uid": "655a8f91-2fdd-458d-8cac-d592b16a7456"
     },
     {
+        "question_uid": "7ad08d0f-4f61-4d71-80f6-70f5ec74650e",
         "question": "what percentage did the manufacturing sector make up of exports?",
         "answer": 55.34,
         "document_uid": "ab2ab3a3-19de-47ad-8423-277ace0eba2b"
     },
     {
+        "question_uid": "7be739e0-b216-43ab-b57d-0e1b97d787d7",
         "question": "what was the percentage of wholesalers exported among immigrant-owned firms?",
         "answer": 10.58,
         "document_uid": "ab2ab3a3-19de-47ad-8423-277ace0eba2b"
     },
     {
+        "question_uid": "d513aa3b-4abc-4772-b43b-ff96661c0a1b",
         "question": "what the rate of recent immigrants had at least a bachelor's degree in 2001?",
         "answer": 33.8,
         "document_uid": "702833e8-a0dc-42e5-bc94-6928b648579a"
     },
     {
+        "question_uid": "b937f289-d788-4ea8-8dd1-cf13f5743999",
         "question": "what was the share of unincorporated self-employed workers in 2016 who satisfy the definition of gig workers?",
         "answer": 8.2,
         "document_uid": "1b4fa0b2-0f21-4018-97cd-1a968cca5399"
     },
     {
+        "question_uid": "b7861d66-ae0d-49c4-bc2a-3cca8b61787c",
         "question": "how many times do high r&d intensity firms pay more than low r&d intensity firms on average?",
         "answer": 1.3,
         "document_uid": "77a1a75d-897a-4801-9318-d961a362e330"
     },
     {
+        "question_uid": "c7cab915-6b57-49cd-8f04-278ced61dcfd",
         "question": "what was the percent of these canadian-born sme owners had a graduate degree?",
         "answer": 25.4,
         "document_uid": "7ced8573-76dc-476b-87fd-7cd79ac624c2"
     },
     {
+        "question_uid": "6b14fa14-7215-4623-8e93-89aaf668a6d4",
         "question": "what is the margin point of gars who received social assistance income six years after landing between the 1999 and 2010 cohorts?",
         "answer": 26.2,
         "document_uid": "08167f16-27f1-4b61-9bf7-9181b955645a"
     },
     {
+        "question_uid": "1a7ff161-a974-4664-ab39-3f2298d345f6",
         "question": "what was the mean absolute revision to the annual growth in real gdp between 1981 and 2014?",
         "answer": 0.11,
         "document_uid": "b6251df1-d471-4a13-8486-2ed76d300d51"
     },
     {
+        "question_uid": "29feb40a-2e87-4861-83cc-eb5c98fddd0e",
         "question": "what was the change in pension entitlements in household sector?",
         "answer": 55.0,
         "document_uid": "b6251df1-d471-4a13-8486-2ed76d300d51"
     },
     {
+        "question_uid": "7b9c9d15-a819-4eb9-9c0b-b6f28dbf4f79",
         "question": "what was the annual real growth over the 1981 to 2013 period was in alberta?",
         "answer": 3.13,
         "document_uid": "b6251df1-d471-4a13-8486-2ed76d300d51"
     },
     {
+        "question_uid": "17e9c22a-68d0-4075-ad7d-27c3120d8241",
         "question": "what was the amount the estimates of employee compensation were revised upward for 2015?",
         "answer": 1386.0,
         "document_uid": "083d5ee4-2834-49f2-9251-6a252bdd2938"
     },
     {
+        "question_uid": "38d5d549-cefd-4d36-8362-9c5367d68831",
         "question": "what was the amount imports were revised upward for 2015?",
         "answer": 3451.0,
         "document_uid": "083d5ee4-2834-49f2-9251-6a252bdd2938"
     },
     {
+        "question_uid": "b3ed871f-edaa-4698-af1b-12cb8a00726e",
         "question": "how many dollars were food and beverage services were revis up in 2015?",
         "answer": 1100.0,
         "document_uid": "b93857a1-9766-474a-8cb0-fbe1c57ad1b2"
     },
     {
+        "question_uid": "11c00a14-53a0-49fa-87ea-76f032db54c1",
         "question": "what is the ratio of cannabis-related expenditures including inventory changes to gdp in the fourth quarter?",
         "answer": 0.003885,
         "document_uid": "0eeedbbd-57f8-4fb4-b21a-d903bf48286d"
     },
     {
+        "question_uid": "64df0836-8199-4052-9e9a-9ec969e36082",
         "question": "in the fourth quarter of 2018, how mush was the average price of illegal cannabis lower than the price of legal cannabis?",
         "answer": 0.328866,
         "document_uid": "0eeedbbd-57f8-4fb4-b21a-d903bf48286d"
     },
     {
+        "question_uid": "8366cc2f-4c42-4102-90c4-750a8813b7bb",
         "question": "how many hectares did alberta report the area of woodland and wetland in 2011?",
         "answer": 893436.0,
         "document_uid": "92aefd61-cbed-4365-8214-55f9d7843475"
     },
     {
+        "question_uid": "a1270a7a-ba66-465c-98d7-6b67ff563739",
         "question": "what was the percentage of all farms reported woodlands and wetlands in 2011?",
         "answer": 49.9,
         "document_uid": "92aefd61-cbed-4365-8214-55f9d7843475"
     },
     {
+        "question_uid": "f3aa2a44-bce4-4c9c-bd69-0460f65e00b4",
         "question": "how many tonnes did the weight of cargo loaded and unloaded at canadian airports increase to in 2017?",
         "answer": 1313376.0,
         "document_uid": "cf42eb3b-861f-4d4e-b6d0-358db5a8ead2"
     },
     {
+        "question_uid": "028839e3-f505-4b83-954a-f7b489313517",
         "question": "what is the percentage of these products and services comprising of the cpi basket?",
         "answer": 4.71,
         "document_uid": "ae398bbb-a44d-4323-b231-907f31305426"
     },
     {
+        "question_uid": "4944934e-314d-4729-9fc6-7ebc101c9021",
         "question": "how many percentage points of the self-employment rate in saskatchewan was lower in 2018 than in 1976?",
         "answer": 11.8,
         "document_uid": "fc35de6f-06c1-4cd9-98f2-b5889ad750cb"
     },
     {
+        "question_uid": "56e89313-d635-420a-b10b-226665fd43f4",
         "question": "of aboriginal people not in couples, 57.8% were employed, relative to 76.9% of their non-aboriginal counterparts, what was the difference of thenm?",
         "answer": 19.1,
         "document_uid": "eee9cf9d-d803-43b0-94ea-3968e34c543a"
     },
     {
+        "question_uid": "0d920275-3a1c-42e1-b6c7-5f640f856ad4",
         "question": "how many percent of caregivers living with their care recipient helped their spouse or partner?",
         "answer": 29.0,
         "document_uid": "6031f0d0-3387-4c64-8b41-252d0cead1aa"
     },
     {
+        "question_uid": "8a66aad2-19c1-455d-a422-c9224f53f441",
         "question": "what is the probability to work in a managerial or professional occupation among non-aboriginal workers with lower literacy level in model 3?",
         "answer": 0.534,
         "document_uid": "15b06c6a-6cf5-41f8-81fd-9781b00dbd61"
     },
     {
+        "question_uid": "1fe690e9-3b71-4cc8-a4ef-610343b0a805",
         "question": "between 2011 and 2015, what was the percentage points of the voting rate of immigrants from southeast asia increased?",
         "answer": 10.1,
         "document_uid": "434037e4-e13a-4367-8cde-3d77dac828bd"
     },
     {
+        "question_uid": "9b25ddba-396d-4dcc-b26e-1eabfb866b17",
         "question": "in 2015, how many people did more than 20 million citizens reported having voted in the federal election, compared with about 17.4 million in 2011 increase between 2011 and 2015?",
         "answer": 2635.7,
         "document_uid": "434037e4-e13a-4367-8cde-3d77dac828bd"
     },
     {
+        "question_uid": "0987aad1-19eb-4d44-91fa-717eccfc5fff",
         "question": "what was the percentage of individuals from households that earn less than $40,000 who said they were a victim of cyberstalking in the last five years?",
         "answer": 11.1,
         "document_uid": "a3310aa3-4005-4da1-9d79-addccda86427"
     },
     {
+        "question_uid": "98e5e098-e753-4e2f-b02f-31ff67e8e24d",
         "question": "what is the difference between the difference between the before-tax family income with a high school diploma and that of non-completers among females?",
         "answer": 0.440945,
         "document_uid": "d655b1f1-2958-45a4-823a-79b82732af3f"
     },
     {
+        "question_uid": "a9fbea77-413b-4f61-8410-62a6b2fe24a8",
         "question": "what were average total weekly wages adjusted for family size among those that were unattached, lone parents or spouses/partners in single-earner couples?",
         "answer": 347.0,
         "document_uid": "e0a6992d-7d50-45a8-a44f-865112ff00d1"
     },
     {
+        "question_uid": "7622d278-4ef9-4431-8dd4-840f809ea320",
         "question": "what is the percentage of households consisting of one individual to the refugees from all the other countries excluding syria?",
         "answer": 12.0,
         "document_uid": "53fbee1f-f194-463e-8ec0-d6f4e98e3812"
     },
     {
+        "question_uid": "e152949b-646d-48b1-9175-93711c24edf1",
         "question": "what is the percentage of syrian refugees admitted in 2015 in the rest of ontario and the british columbia?",
         "answer": 28.7,
         "document_uid": "53fbee1f-f194-463e-8ec0-d6f4e98e3812"
     },
     {
+        "question_uid": "aa3e9d43-230c-4822-9d19-13d3baf5d600",
         "question": "what was the percent of caregivers in households whose total household income was between $40,000 and $60,000 reported receiving financial support for caregiving?",
         "answer": 24.0,
         "document_uid": "ff87fe62-be15-4c98-84d7-78ecdf118dad"
     },
     {
+        "question_uid": "01cb7a6a-297c-4886-91b5-cd0fdda779a8",
         "question": "what was the median debt at graduation for those who had repaid their debt?",
         "answer": 9926.0,
         "document_uid": "fadbd7a7-215c-4c76-8a7c-8cc1fbb54778"
     },
     {
+        "question_uid": "e98755ee-f78c-42c3-9fb1-6ebffb5547c5",
         "question": "what was the percent of seniors aged 75 and older cared to a spouse?",
         "answer": 46.5,
         "document_uid": "6e570498-956e-4b5b-9a26-4eb0514d71e3"
     },
     {
+        "question_uid": "8cbecb41-0968-4587-9ead-30f4b174c754",
         "question": "how many percentage points was the low-income rate for women aged 85 years and older with transfers?",
         "answer": 24.5,
         "document_uid": "21691a4c-9b18-431c-bf73-e3bc470f45a2"
     },
     {
+        "question_uid": "4c2599b0-42f7-46bc-ba31-1594aec77f58",
         "question": "what was the proportion of social and community service workers that reported living in non-census family households?",
         "answer": 19.9,
         "document_uid": "7d834eff-4019-4d9c-bf18-808aada06061"
     },
     {
+        "question_uid": "9ad9e5fc-0bc9-4d4d-9618-82f14fa00a1e",
         "question": "according to the proposed 2018-base mbm, how many numbers of people in poverty have declined from 2015 to 2018?",
         "answer": 1.091,
         "document_uid": "dbd62669-a618-4cc4-b634-35cf957c0816"
     },
     {
+        "question_uid": "03696182-b71d-450d-9457-ccfec3b4557a",
         "question": "what was the percent change of the srr of injury hospitalization for medical/surgical mishap among the aboriginal females?",
         "answer": -53.0,
         "document_uid": "c98d9cf3-01c2-43e1-a667-34bef38b34b3"
     },
     {
+        "question_uid": "4d52fc30-ac3f-40f8-8713-03f27ff9eb89",
         "question": "what was the total number of individuals in ontario identified as having copd over the 2002-to-2011 period?",
         "answer": 722494.0,
         "document_uid": "a57423cc-d98f-47bd-9073-d391f63e1884"
     },
     {
+        "question_uid": "0e0ad672-30b6-4d44-a03e-978110613ad9",
         "question": "by 2002-to-2006, how much had the hazard ratio risen to for first nations cohort women?",
         "answer": 2.18,
         "document_uid": "7e5eaf97-db7b-4c3c-892d-28e1b394a7f5"
     },
     {
+        "question_uid": "1125ecb7-c40c-4804-977e-30a050f412c9",
         "question": "among all types of birth, what is the linkage rates for infant deaths not matched to a birth registration?",
         "answer": 0.0,
         "document_uid": "9f782058-37e2-471e-aec7-799c246e44f0"
     },
     {
+        "question_uid": "ba46de41-35d5-40ce-81a5-a73fd839eb13",
         "question": "what is the percentage of the total respondents who reported that they engaged in utilitarian walking more than 5 hours a week?",
         "answer": 17.8,
         "document_uid": "a9f790a9-c5fe-4e7e-9aa7-3fe721ce9ecc"
     },
     {
+        "question_uid": "ada43e10-6db5-4b47-b1e8-bdc111d7dfe7",
         "question": "what was the percent of female immigrants were economic class refugees class?",
         "answer": 12.7,
         "document_uid": "f581a156-75fa-4f92-a8bf-07eda40e34fb"
     },
     {
+        "question_uid": "7e89866d-0e39-438b-ae47-3269f3797b61",
         "question": "in 2012, how many canadians aged 15 or older met all three criteria for past 12-month gad?",
         "answer": 721.7,
         "document_uid": "457d8f58-25e8-4b6d-a842-8a31df40e673"
     },
     {
+        "question_uid": "1778ed9e-a96f-4192-93e5-c420f8ee703c",
         "question": "what was the percentage of for most people who were injured the symptoms persisted for no more than two days?",
         "answer": 69.7,
         "document_uid": "af2ee1e0-414c-498a-b2b2-baa19dfcf4f7"
     },
     {
+        "question_uid": "1bc47a96-7fd1-462e-b845-0bd5303a942b",
         "question": "what was the percentage of female ecpas were from eastern europe?",
         "answer": 10.4,
         "document_uid": "4a7035fb-d634-4b54-9911-840e660b4aa0"
     },
     {
+        "question_uid": "0f2fe664-431c-4cdc-98d1-d48e29d9a236",
         "question": "what was the percentage of the past-year sdmnm cannabis users who identified alleviating insomnia as the primary purpose for their medical use.",
         "answer": 18.3,
         "document_uid": "1dded2d3-b3cf-4d66-898d-6e3735fa24fa"
     },
     {
+        "question_uid": "83f2bd0b-f4b1-43fd-b6e5-ae71bb453bdd",
         "question": "what was the highest age-standardized rate among those in manufacturing and utility related occupations?",
         "answer": 12.7,
         "document_uid": "ea3fe829-160d-498f-9368-b5af9ea088b4"
     },
     {
+        "question_uid": "0eaccefc-140d-4c5d-bc47-ec0b275f68b8",
         "question": "what is the proportion of non-vaccinated persons among adults aged 18 to 64 years with no cmc?",
         "answer": 77.8,
         "document_uid": "3f931d1d-c079-4af4-8dc2-6c93cff489f7"
     },
     {
+        "question_uid": "fcad144a-9a88-4254-9b76-0bde00a60a77",
         "question": "what percentage of respondents reported that their injury was caused by their own personal use of a laser product?",
         "answer": 25.0,
         "document_uid": "c25c5b39-6d6b-4591-a1ae-1d5630b55f53"
     },
     {
+        "question_uid": "31eb8759-f02a-45d9-b78b-008744b363d3",
         "question": "what was the percentage of participants of feeling responsible for the death of canadian or ally personnel?",
         "answer": 2.6,
         "document_uid": "1ec21e69-29ef-4062-9f5a-c9a204204b38"
     },
     {
+        "question_uid": "f04a3b7c-76ae-430e-92f6-d213d615bd22",
         "question": "at age 65, how many years was the life expectancy for inuit women shorter than that for non-indigenous women in 2011?",
         "answer": 5.9,
         "document_uid": "56d93882-d5da-4fbb-88a5-37f2c48bb6b0"
     },
     {
+        "question_uid": "f5cf24af-78e0-4f83-baba-ce0f116e682b",
         "question": "what is the percentage of those with rural postal codes were most commonly matched to single da?",
         "answer": 13.86,
         "document_uid": "25749283-74c9-40d0-9676-c0bed85b5673"
     },
     {
+        "question_uid": "ea90ce0f-b2bf-4bac-b09c-060e6aec6e45",
         "question": "what was the percentage of sexually active females aged 15 to 24 reported having used ec in the past 12 months?",
         "answer": 10.6,
         "document_uid": "0516789b-f6ac-458f-8d97-36da9448e616"
     },
     {
+        "question_uid": "653c8e52-8dcd-4b8f-871a-f3fa319e8a76",
         "question": "what was the rate corresponds to an average of new cases of childhood cancer per year during this time period?",
         "answer": 905.0,
         "document_uid": "0228dd84-5fd7-4fb4-9083-77ea87b2c7b8"
     },
     {
+        "question_uid": "3360bf42-a374-433c-9b58-3a108608c8fb",
         "question": "how many percentage points did the absolute gap between seniors aged 65 to 69 and seniors aged 80 and older increase to in 2017?",
         "answer": 32.1,
         "document_uid": "d10e6434-a26c-4a54-bf69-f4b060911f2d"
     },
     {
+        "question_uid": "12e62c9e-66c9-49bc-a871-b0a48c1dcdb7",
         "question": "how many percentage points was the internet use for seniors with a household income of $100,000 and over in 2016?",
         "answer": 79.4,
         "document_uid": "d10e6434-a26c-4a54-bf69-f4b060911f2d"
     },
     {
+        "question_uid": "e4d0bfb6-a924-42aa-926a-e96f320e4554",
         "question": "broken down by type of drug, what is the percentage of completed cases involving drugs other for possession with a guilty decision from 2008/2009 to 2011/2012?",
         "answer": 65.0,
         "document_uid": "1f9daff8-c788-4b8a-9580-90eb8322dcd9"
     },
     {
+        "question_uid": "d46a83f7-9aa7-475e-b412-e8efc6615744",
         "question": "how many percentage points were ipv cases among all cases involving a female victim?",
         "answer": 72.0,
         "document_uid": "7f07a89b-8363-4756-b5f5-18d7a0598271"
     },
     {
+        "question_uid": "c1ae3639-9d78-4566-937f-7dedb3ed74db",
         "question": "what percent of guilty non-ipv cases has resulted in a sentence of probation ?",
         "answer": 40.0,
         "document_uid": "7f07a89b-8363-4756-b5f5-18d7a0598271"
     },
     {
+        "question_uid": "bd451077-7c3a-4c01-a708-cc0785cbcca7",
         "question": "what was the declines in the number of completed cases in ontario from 2012/2013 to 2013/2014?",
         "answer": 16,
         "document_uid": "89f1ca4c-6bfe-4e39-9a64-09c97509eae9"
     },
     {
+        "question_uid": "55362b24-0037-4f5c-be2b-9d51184f503b",
         "question": "what was the median length of time to complete attempted murder cases in 2013/2014?",
         "answer": 248.0,
         "document_uid": "89f1ca4c-6bfe-4e39-9a64-09c97509eae9"
     },
     {
+        "question_uid": "ac63d776-b100-4fd9-a5f6-8d1dd9c171fd",
         "question": "what is the percentage of cases of drug procession resulted in guilty findings?",
         "answer": 28.0,
         "document_uid": "89f1ca4c-6bfe-4e39-9a64-09c97509eae9"
     },
     {
+        "question_uid": "57fbb514-e750-4959-ad2b-7ca7063c71aa",
         "question": "what percentage of increase happened in alberta?",
         "answer": 1,
         "document_uid": "779d8b27-0ee2-48a2-815a-85fe3308524d"
     },
     {
+        "question_uid": "43057d56-2d89-4316-838b-087d38424b49",
         "question": "according to the 2014 sepr, what is the percentage of individuals indicated that their homes had a working carbon monoxide detector?",
         "answer": 60.0,
         "document_uid": "4bd3da00-3f43-48c8-98d4-4c66fa988aed"
     },
     {
+        "question_uid": "72a08bc6-0592-4a34-b803-591848f5a820",
         "question": "considering age for instance, what is the percentage of young adults aged 25 to 34 were the least likely to live in households that had all three fire safety devices? in comparison to individuals from other age groups.",
         "answer": 36.0,
         "document_uid": "4bd3da00-3f43-48c8-98d4-4c66fa988aed"
     },
     {
+        "question_uid": "d750322e-1b6d-4a68-9cd0-a128d62008aa",
         "question": "how many percentage points did the rate of police strength increase in alberta?",
         "answer": 0.5,
         "document_uid": "16514edb-db9b-4038-bebf-799cc55efe90"
     },
     {
+        "question_uid": "14445ff0-5b91-4e6c-b585-db45890b8b60",
         "question": "what percentage of nunavut residents report no injuries?",
         "answer": 73.0,
         "document_uid": "5985a950-ff69-4ea1-a1bb-1627e41cd84d"
     },
     {
+        "question_uid": "d7273c7e-2c02-4a27-9887-29fe5b81c02e",
         "question": "what is the percentage of cases cited for not reporting an incident to the police in the territories were because they would not be able to find the property or identify the offender?",
         "answer": 46.0,
         "document_uid": "5985a950-ff69-4ea1-a1bb-1627e41cd84d"
     },
     {
+        "question_uid": "66933230-8caf-4bbb-b172-d6d86a576d6e",
         "question": "how many times were aboriginal people more likely to have engaged in binge drinking during the month prior to the survey than non-aboriginal people?",
         "answer": 1.153846,
         "document_uid": "850edb61-ec1d-4fbd-b2bd-ae813b2423a1"
     },
     {
+        "question_uid": "cc068fd1-da80-4118-b464-3c94234ddf1e",
         "question": "in 2014/2015, how many charges did canada's youth courts complet cases involving related to criminal code and other federal statute offences, including offences related to the ycja?",
         "answer": 120907.0,
         "document_uid": "281690f0-a159-4ac2-8a09-3f703a6c527b"
     },
     {
+        "question_uid": "e1398325-b900-42b3-bd0a-438243b4b12a",
         "question": "in 2014/2015, what is the number of charges related to criminal code and other federal statute offences?",
         "answer": 992635.0,
         "document_uid": "10e111e2-51e5-41d5-83a4-fe7042ad3c1e"
     },
     {
+        "question_uid": "40f32a5c-8bc8-4a1f-8a9d-fce21ce0cf02",
         "question": "according to the provincial and territorial rate,how many officers per 100,000 population have?",
         "answer": 187.0,
         "document_uid": "a12f1fc0-2192-4863-ade8-046cdbe2ed9f"
     },
     {
+        "question_uid": "25a2f20d-f03b-4ea6-9cd7-c051e9dd6964",
         "question": "what was the percentage of victims of sexual assault stated that they did not report the incident to the police because they were afraid that reporting would bring shame and dishonour to their family?",
         "answer": 12.0,
         "document_uid": "5cad9033-51f2-4104-977f-80212fa47914"
     },
     {
+        "question_uid": "5af2a2de-e6a3-4a51-bc82-0a21ad272b24",
         "question": "for the third consecutive year, what was the rate of police strength in quebec's municipality of levis?",
         "answer": 107.0,
         "document_uid": "44986060-3c6d-45f0-976d-9343fdb9739f"
     },
     {
+        "question_uid": "a6538451-ca00-4320-8a41-88726c70006b",
         "question": "how many percent of initial entries into community supervision were down in 2016/2017?",
         "answer": 6.0,
         "document_uid": "c6f5738e-09e9-4c31-b16c-b98d33e84d74"
     },
     {
+        "question_uid": "cbb65690-f5d4-4de7-8f49-7484f65ed50a",
         "question": "how many percent did federal admissions to custody decrease by while community supervision was unchanged?",
         "answer": 5,
         "document_uid": "c6f5738e-09e9-4c31-b16c-b98d33e84d74"
     },
     {
+        "question_uid": "1b9363bc-71ee-4357-aae1-c42bf7118e0b",
         "question": "how many percent did aboriginal adults account for admissions to community supervision in federal correctional services?",
         "answer": 26.0,
         "document_uid": "c6f5738e-09e9-4c31-b16c-b98d33e84d74"
     },
     {
+        "question_uid": "f4c012dd-a305-475f-afc3-75ad051f9006",
         "question": "as with adults, non-aboriginal females made up a greater proportion of custody admissions among youth relative to their male counterparts, how many percent of admission accounted for?",
         "answer": 40.0,
         "document_uid": "c6f5738e-09e9-4c31-b16c-b98d33e84d74"
     },
     {
+        "question_uid": "59ff733d-fe1a-422d-8062-f81f27a7b3e4",
         "question": "what was the rate of homicide for aboriginal people in 2016 in alberta?",
         "answer": 10.99,
         "document_uid": "d70ee2ec-139f-475b-b68b-8f7504038908"
     },
     {
+        "question_uid": "f6fadd22-8a8b-4188-b958-14359e28326c",
         "question": "what was the percent change of the number of cleared incidents from 2016?",
         "answer": 2.9,
         "document_uid": "4c5e83ba-5437-4e6a-9b5f-4bc145962def"
     },
     {
+        "question_uid": "7f46529a-ca5e-4f19-9b27-14c11654e9db",
         "question": "at two times the national quarterly rate (18.6 per 100,000 population), what was the rate in kingston reported the rate of police-reported sexual assaults after #metoo?",
         "answer": 29.7,
         "document_uid": "775e410b-826d-41bc-b762-aba21155f215"
     },
     {
+        "question_uid": "07e6790c-30fe-43a3-900f-4fa89ebe68b6",
         "question": "what was the firearm-related homicide rate increased 18% from the previous year?",
         "answer": 0.72,
         "document_uid": "b770ea2e-4ce6-4163-ac3b-11eaef9948ab"
     },
     {
+        "question_uid": "b0656516-5636-4fd7-b573-35a6fd4fef7b",
         "question": "how many victims in 2017 were more than in 2016, were killed by someone with whom they had a criminal relationship?",
         "answer": 19,
         "document_uid": "b770ea2e-4ce6-4163-ac3b-11eaef9948ab"
     },
     {
+        "question_uid": "a328714b-68c5-4c83-be1d-333fcc99a782",
         "question": "what percent of all persons accused of homicide in manitoba were females?",
         "answer": 0.153619,
         "document_uid": "380bf3c5-fb33-47a6-a12c-d0e965904ba2"
     },
     {
+        "question_uid": "c1026553-c93d-4eb5-9ce8-422c95407f5c",
         "question": "what was the multiple relationship between rate of disturbing the peace recorded in rural manitoba and in rural quebec ?",
         "answer": 52.931034,
         "document_uid": "de883110-fe7b-4e1b-80f5-cd5504a35a6e"
     },
     {
+        "question_uid": "9214d316-5995-4998-a104-8a1dae52d87c",
         "question": "what was the percentage of youth admitted to community supervision aged 16 and 17 years old in 2017/2018?",
         "answer": 49,
         "document_uid": "047bf4dc-77f7-47bd-a23d-3a8592ecd664"
     },
     {
+        "question_uid": "6bc82b27-b84f-4a8c-9d70-e36c7c772987",
         "question": "what is the mean total income of decedents who did not have contact with police for the last year they were employed?",
         "answer": 25207.0,
         "document_uid": "bd6da386-3a46-435f-b6bc-ca7566b61246"
     },
     {
+        "question_uid": "2ed48533-0162-48cd-86e1-9107fa4bd4bc",
         "question": "northern saskatchewan and northern manitoba had consistently higher violent crime rates than the territories for males and females of all major age groups, how many times did northern saskatchewan have the highest rate for canadians in the territories overall?",
         "answer": 2.177774,
         "document_uid": "c11f2559-0eaa-41f1-b293-88281acf1b78"
     },
     {
+        "question_uid": "c5011127-9e44-456e-b6f6-b3a375da87eb",
         "question": "what was the highest rates for sexual offences did the northwest territories report?",
         "answer": 1827.0,
         "document_uid": "c11f2559-0eaa-41f1-b293-88281acf1b78"
     },
     {
+        "question_uid": "d2ff9aa6-ea01-48b6-bf21-0d4df4a5b005",
         "question": "for women since age 15, what is the percentage of them experienced physical assault of the provincial average in 2018?",
         "answer": 26.1,
         "document_uid": "e9fcec9b-3f5b-415d-bc4a-1af82961d0ac"
     },
     {
+        "question_uid": "18d08e88-9fa4-4d0e-9701-c8116d8f9560",
         "question": "how many percent of bisexual canadians who had experienced abuse or violence in their lifetimes, have reported that they had used drugs or alcohol to cope with their lifetime experiences of abuse or violence?",
         "answer": 29.5,
         "document_uid": "cf5d16e0-d719-4963-8c61-a023cbebb4c7"
     },
     {
+        "question_uid": "cb0a46eb-12e8-4d4e-8f8f-9904a92202f7",
         "question": "in total, how many drug-impaired driving violations in 2019?",
         "answer": 6453.0,
         "document_uid": "f5ad970f-f66d-455e-87d7-360f04ab7b0a"
     },
     {
+        "question_uid": "970895c7-9a27-41fe-b4dd-af6b7e7c12c1",
         "question": "what was the percent of the national rate of major assault (level 2 and 3) increased in 2019 for the fifth consecutive year due to higher rates of assault with a weapon or causing bodily harm (level 2)?",
         "answer": 8.0,
         "document_uid": "f5ad970f-f66d-455e-87d7-360f04ab7b0a"
     },
     {
+        "question_uid": "d2b57457-1314-4ebc-bc97-8cde14a51e63",
         "question": "for the fourth consecutive year, how many homicides per 100,000 population did thunder bay have which recorded the highest homicide rate among cmas?",
         "answer": 5.56,
         "document_uid": "f5ad970f-f66d-455e-87d7-360f04ab7b0a"
     },
     {
+        "question_uid": "353de1df-5e11-468f-a1cc-94a02eba526e",
         "question": "in 2019, there were over 70,100 total drug offences reported by police, what was the rate did total drug offences represent per 100,000 population?",
         "answer": 187.0,
         "document_uid": "f5ad970f-f66d-455e-87d7-360f04ab7b0a"
     },
     {
+        "question_uid": "efd15c2a-91b7-4e06-b31a-4034820f6195",
         "question": "what was the percent of students indicated that the gender(s) of the perpetrator(s) varied across instances or behaviours- but included both men and women?",
         "answer": 45.0,
         "document_uid": "cfdb6404-4f59-4f9a-a28b-c302b706aed4"
     },
     {
+        "question_uid": "75a841c3-a85c-474f-b08c-583a94d7f05d",
         "question": "what was the percent of cmc students who did not have a disability experienced some form of unwanted sexualized behaviour in the previous 12 months?",
         "answer": 32.0,
         "document_uid": "cfdb6404-4f59-4f9a-a28b-c302b706aed4"
     },
     {
+        "question_uid": "a13a7a66-c2b0-461a-9a2f-2bb9c574164c",
         "question": "at the federal level, what is the percentage of admissions to community supervision decreased in 2018/2019?",
         "answer": 2,
         "document_uid": "724d450c-da64-4aea-928a-a8014cf67b7d"
     },
     {
+        "question_uid": "137f8983-2cc0-4a96-a330-62e99a0051d2",
         "question": "in 2018, what is the percentage of those 50 years and older having been sexually assaulted in the past 12 months?",
         "answer": 0.6,
         "document_uid": "0efb6345-8bd9-4ef6-b9eb-2cac2919a6ea"
     },
     {
+        "question_uid": "786eb84a-ea21-40b2-8277-3a85b00911a2",
         "question": "what is the proportion of women who were victims having negative impacts?",
         "answer": 52,
         "document_uid": "0efb6345-8bd9-4ef6-b9eb-2cac2919a6ea"
     },
     {
+        "question_uid": "a48eba80-ce5d-4c6b-990a-a142028bc33d",
         "question": "how much times is the proportion of regular force members aged 25 to 29 targeted in the last 12 months of the proportion of those 50 years of age and older?",
         "answer": 2.918919,
         "document_uid": "0efb6345-8bd9-4ef6-b9eb-2cac2919a6ea"
     },
     {
+        "question_uid": "a1bfe750-1043-4d28-bcc2-aa8828eb2412",
         "question": "what percent of internet users in the lowest income quartile are online shoppers?",
         "answer": 70.2,
         "document_uid": "09b76325-2ff5-4ce8-9d85-91c6c391e297"
     },
     {
+        "question_uid": "8fd4a818-6e90-4b74-987a-32dd0cefa530",
         "question": "among inuit women aged 15 and over, how many percent reported having an anxiety disorder?",
         "answer": 7.1,
         "document_uid": "184b4069-9c19-4f20-8f75-14c511083e1a"
     },
     {
+        "question_uid": "de864aab-cd1a-4c35-95a1-7b0d10073469",
         "question": "what was the percentage of females in the cma of calgary belonged to a visible minority group?",
         "answer": 28.4,
         "document_uid": "ca7d6e99-5ce8-4940-b7f8-b82f34ba7d20"
     },
     {
+        "question_uid": "2eacb6d9-a738-4755-a004-824a2f28d3dc",
         "question": "within 15 to 24 age group, what was the unemployment rate for visible minority women higher than women who were not a visible minority?",
         "answer": 4.6,
         "document_uid": "ca7d6e99-5ce8-4940-b7f8-b82f34ba7d20"
     },
     {
+        "question_uid": "16c0cb82-6638-4896-8cb5-2f42d5f7f215",
         "question": "within the population that did not belong to a visible minority group, what was the percentage of canadian-born women aged 15 to 24 in a low-income situation?",
         "answer": 15.4,
         "document_uid": "ca7d6e99-5ce8-4940-b7f8-b82f34ba7d20"
     },
     {
+        "question_uid": "49805fd6-fdd2-47af-808e-86ff197197ae",
         "question": "what was the percentage of visible minority women who reported experiencing discrimination cited that it was because of their race or skin colour ?",
         "answer": 62.0,
         "document_uid": "ca7d6e99-5ce8-4940-b7f8-b82f34ba7d20"
     },
     {
+        "question_uid": "fb80d83a-e487-4ada-970e-b7acfa7fc1f9",
         "question": "what is the percentage of women aged 85 and over rated their mental health as \"excellent\".",
         "answer": 24.4,
         "document_uid": "1d601bb4-49b2-43ba-9c7f-dfb05270aa0c"
     },
     {
+        "question_uid": "e9620d45-3cd2-4fd0-91b2-e4a48809e879",
         "question": "how much did the proportion of female parents in couples that had a university degree increase from 1991 to 2011?",
         "answer": 18.0,
         "document_uid": "1ff8ce89-db0e-464a-b285-9d472b94c00a"
     },
     {
+        "question_uid": "d6cb9127-c5a4-4af5-aae0-2678ca8f01d8",
         "question": "what was the percentage of male apprenticeship certificate holders who worked full time and full year that was in mechanic and repair technologies?",
         "answer": 34.0,
         "document_uid": "1ff8ce89-db0e-464a-b285-9d472b94c00a"
     },
     {
+        "question_uid": "31eeea36-b057-4827-b808-c9e833e709b4",
         "question": "what percentage of boys would participate cultural, educational, or hobby organization?",
         "answer": 31.0,
         "document_uid": "49f8c245-acd6-4570-abea-8529870e5329"
     },
     {
+        "question_uid": "8fd5189e-6fab-41eb-95bb-81b4632be9fd",
         "question": "what is the rate of sexual offences against boys per 100,000 population?",
         "answer": 28.5,
         "document_uid": "49f8c245-acd6-4570-abea-8529870e5329"
     },
     {
+        "question_uid": "f4069731-3ba8-42c6-a66d-d55b874b2a33",
         "question": "how many month did the average duration of a men's maternity or parental leave combin?",
         "answer": 3.7,
         "document_uid": "0192efa2-ebbf-411a-a629-5ff0b8b3e06d"
     },
     {
+        "question_uid": "8000ec2a-1813-41d0-9165-ad7e26864321",
         "question": "how many times aboriginal women aged 15 or older were more likely than same-aged non-aboriginal men to report disabilities?",
         "answer": 1.176,
         "document_uid": "64fac5d9-7c39-4482-8a01-bbe86ff41c7f"
     },
     {
+        "question_uid": "9e424152-cefe-461d-81f1-b2633c6e94b6",
         "question": "what was the percentage of admissions of female youth to secure custody in youth correctional services in 2014/2015?",
         "answer": 16.0,
         "document_uid": "a7611f88-d455-4b11-8e78-e3ee03a524b1"
     },
     {
+        "question_uid": "cbe380c8-8485-4b2f-8e51-8b1366e7a724",
         "question": "what was the percentage of paralegal and related positions held by women in 2011?",
         "answer": 85.0,
         "document_uid": "a7611f88-d455-4b11-8e78-e3ee03a524b1"
     },
     {
+        "question_uid": "5228fc2d-d597-439c-bdc0-d05d250b1e34",
         "question": "what was the percentage of people aged 55 to 64 volunteered their time in 2010?",
         "answer": 41.0,
         "document_uid": "a1545244-f182-4b6b-ae41-489c7f2ecc24"
     },
     {
+        "question_uid": "feac4993-6258-4926-bb48-23226eb82823",
         "question": "how much did the proportion of people who reported having seen their friends a few times or more a week fall from 2003 to 2013?",
         "answer": 12,
         "document_uid": "5a27a74c-f5f4-4c35-ad26-7ab9afd479c8"
     },
     {
+        "question_uid": "da7d4cc2-bd44-419a-948f-185f0f719c65",
         "question": "what is the volunteer rate for those without children in 2013?",
         "answer": 38.0,
         "document_uid": "032bb7a2-4215-4c49-b8c0-adbf084a08be"
     },
     {
+        "question_uid": "139d55b9-43ad-4233-9aac-83b453c72e71",
         "question": "how many hours do the volunteers with a household income of less than $20,000 contribute over the course of a year?",
         "answer": 182.0,
         "document_uid": "032bb7a2-4215-4c49-b8c0-adbf084a08be"
     },
     {
+        "question_uid": "1ff5b8ff-d41b-4add-b629-b328143ee5eb",
         "question": "wha percent of immigrants viewed national anthem as very important?",
         "answer": 75.0,
         "document_uid": "401aadf5-51ae-42b2-b81f-fc70a9e394f1"
     },
     {
+        "question_uid": "c5eea53e-3615-4f29-ba72-46b2116467e9",
         "question": "how many percentage points had non-donors participated in religious activities at least once a week?",
         "answer": 8.0,
         "document_uid": "eafa373f-64d2-41f0-bf23-afba54ac17d7"
     },
     {
+        "question_uid": "579c53ff-ce0f-4c4c-9f8b-211329091770",
         "question": "how many percentage points does donation religious organizations received represent among the total donations made by canadians in 2013?",
         "answer": 41.0,
         "document_uid": "eafa373f-64d2-41f0-bf23-afba54ac17d7"
     },
     {
+        "question_uid": "3c7251fa-7ec5-40bf-93e6-37281916a68c",
         "question": "in 2013, what is the proportion of people who reported that they followed news and current affairs daily was in alberta?",
         "answer": 53.0,
         "document_uid": "b52d1cc0-2592-444e-8a13-492ae1589554"
     },
     {
+        "question_uid": "20b82fce-1688-4638-a4df-96d82dae9eda",
         "question": "how many percent of residents who believed police were doing a good job being approachable is higher for non-victims compared to victims?",
         "answer": 7,
         "document_uid": "6ba174c4-cb76-43e9-8178-f945442ecf90"
     },
     {
+        "question_uid": "f642280f-35a5-4c96-9a2b-1a15763c416d",
         "question": "what percentage of youth reported that they had very good to excellent general mental health?",
         "answer": 77.8,
         "document_uid": "86cdcdff-2296-47f9-8e1a-3e5e6027f409"
     },
     {
+        "question_uid": "6bc9cbf6-11c3-43d6-8bb3-cffd462ea31c",
         "question": "what is the persontage of social assistance receipt of future job-seekers?",
         "answer": 21.7,
         "document_uid": "e6d93eca-7728-4b03-999b-4f4f5e155f7b"
     },
     {
+        "question_uid": "5861b4a1-3d80-48c1-89cb-2fb4b09c1d87",
         "question": "who were more likely to have none of their needs met, employees in trades and manufacturing occupations or those those in management or professional occupations?",
         "answer": 28.3,
         "document_uid": "f99d03f9-f1ec-4f4a-b302-c8b5094a4a09"
     },
     {
+        "question_uid": "075191ef-30a5-4537-9291-90a79908965a",
         "question": "in the montreal cma, what is the percentage of the survey respondents living in a neighbourhood where the share of the population with an immigrant background was more than 70%?",
         "answer": 18.0,
         "document_uid": "48502bfb-86c0-4790-b167-6085fbb4a21c"
     },
     {
+        "question_uid": "13870031-ed50-4604-80a0-8fb2bcda9ff8",
         "question": "how many professionals who could potentially provide services counted in french in paramedics province in 2011?",
         "answer": 305.0,
         "document_uid": "46da4967-5946-4990-a17e-443eca49eb6f"
     },
     {
+        "question_uid": "71203310-6df2-4939-8ffe-66a7080e86fa",
         "question": "in northern ontario, what proportion of workers who have worked in the restaurant and food services sector was other agri-food workers?",
         "answer": 58.1,
         "document_uid": "16845479-99bc-4a6a-9ca0-295f21658714"
     },
     {
+        "question_uid": "ecbdd2ed-a5c2-4d3e-a45f-c00de61f6adf",
         "question": "how many percentage points did these factors mitigate the effect of the negative factors?",
         "answer": 14.5,
         "document_uid": "a4009bc5-179b-4589-b25e-1e8da025eac5"
     },
     {
+        "question_uid": "5fb397f1-4173-4ff3-8f44-b1390fe8ba06",
         "question": "among men, what is the percentage for those whose country of ancestry is in the caribbean and latin america?",
         "answer": 18.4,
         "document_uid": "a242913d-8a18-40b8-9017-11b25d7c1e13"
     },
     {
+        "question_uid": "7019971e-cabd-48e7-8bdb-7b47cb2f35ff",
         "question": "what was the percentage of respondents who speak an indigenous language speak an indigenous language in combination with another language?",
         "answer": 75.9,
         "document_uid": "9dd4e295-e6be-4ed7-8665-526ce1cb8e4c"
     },
     {
+        "question_uid": "8724d8a9-016a-448d-b5ef-3f4ae34edd81",
         "question": "what was the infant mortality in british columbia in 2013?",
         "answer": 3.7,
         "document_uid": "930e5315-e97f-494e-b13b-6e6b73c3ed38"
     },
     {
+        "question_uid": "70cea9a4-c8c4-4e03-9b2e-fdcf4387f6de",
         "question": "what was the percentage of french-speaking people outside quebec in 2011?",
         "answer": 3.9,
         "document_uid": "ec9dd4da-f264-4e20-8738-f186a2b407bf"
     },
     {
+        "question_uid": "5467bd1e-6689-4b4e-8b92-f1f74ac5fd0f",
         "question": "for women, the decline was similar, at close to 31%, what is the high probabilities in 1946 ?",
         "answer": 51.6,
         "document_uid": "21761df9-a9d8-4133-a80b-501af87c6505"
     },
     {
+        "question_uid": "7136dbed-6e6f-4628-9703-fa79153dff52",
         "question": "what the average grams did dad users consume over 3 months?",
         "answer": 62.6,
         "document_uid": "40b88db0-a66c-4294-a650-9a63cd6a90c8"
