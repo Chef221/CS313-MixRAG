@@ -76,7 +76,6 @@ To bridge the gap of heterogeneous data availability, we construct the DocRAGLib
   {
     "uid": "",
     "paragraphs":"",
-    "table_description":"",
     "tables": [
       {
        "table1",
