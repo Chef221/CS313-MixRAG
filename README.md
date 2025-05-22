@@ -19,6 +19,7 @@ This is the structure of the MixRAG project:
 ```text
 Mixture-of-RAG/
 ├── README.md                           # Project documentation
+├── requirements.txt                    # Required dependencies
 ├── DocLibRAG/                          # Dataset and corpus files
 │   ├── scalability_dataset/            # Scalability evaluation dataset    
 │   ├── Documents.json                  # Document corpus
@@ -115,6 +116,11 @@ The statistical analysis of the dataset is as follows:
 | Table Retrieval | [Table Retrieval](https://aclanthology.org/2024.acl-long.148/) |
 
 ## Requirements
+
+To install the required dependencies, run:
+
+```bash
+pip install -r requirements.txt
 
 ## Running the Code
 
