@@ -92,7 +92,8 @@ To bridge the gap of heterogeneous data availability, we construct the DocRAGLib
 - **paragraphs**: The textual content of the document, containing narrative information
 - **tables**: List of structured tabular data contained within the document, with hierarchical information
 
-The statistical analysis of the dataset is as follows:
+#### The statistical analysis of the dataset is as follows:
+
 | **Indicator**                                              | **Value**             |
 | ---------------------------------------------------------- | --------------------- |
 | **Total Document Number**                                  | **2,178**             |
